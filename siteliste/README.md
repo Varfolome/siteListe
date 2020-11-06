@@ -1,3 +1,7 @@
+# Link to webhosting temporary testing static server
+
+https://testingliste3d.000webhostapp.com/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
