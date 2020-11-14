@@ -1,9 +1,11 @@
 import './App.css';
-import WebWidgetComponent from './WebWidgetComponent';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './StaticPageElements/Header';
 
 function App() {
   return (
-    <WebWidgetComponent/>
+    <Header/>
   );
 }
 

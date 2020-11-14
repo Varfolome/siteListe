@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'MetalMacabre';
+    src: url(../Fonts/metal-macabre/MetalMacabre.ttf) format('truetype');
+}
+
+.naga-button {
+  border: 1px solid green;
+  border-radius: 15px;
+  min-width: 220px;
+  height: 75px;
+  background-image: linear-gradient(to bottom right, DarkCyan, DarkOliveGreen);
+  background-size: cover;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8), 0px 0px 15px rgba(0,0,0,0.4);
+
+}
+
+.button-text {
+  color: DarkGoldenRod;
+  font-size: 40px;
+  font-family: MetalMacabre;
+}
