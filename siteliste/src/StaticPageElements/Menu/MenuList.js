@@ -1,5 +1,6 @@
 import React from 'react';
 import './MenuList.css';
+import ControlPages from './ControlPages';
 
 export default class MenuList extends React.Component {
 
@@ -52,6 +53,7 @@ export default class MenuList extends React.Component {
           <li className="menu-element">Partenaires</li>
           <li className="menu-element">FAQ</li>
         </ul>
+        <ControlPages pageToShow="FAQ" />
       </div>
     );
     }
