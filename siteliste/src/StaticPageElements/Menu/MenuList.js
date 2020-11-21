@@ -6,13 +6,20 @@ export default class MenuList extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {isOpen: false};
+    this.state = {isOpen: false, pageToShow: "Naga"};
     this.Open = this.Open.bind(this);
+    //this.showPage = this.showPage.bind(this);
   }
 
   Open() {
     this.setState(state => ({
       isOpen: !state.isOpen
+    }));
+  }
+
+  showPage(pageName) {
+    this.setState(state => ({
+      pageToShow: pageName
     }));
   }
 
@@ -45,15 +52,15 @@ export default class MenuList extends React.Component {
       <div>
         <button onClick={this.Open} className="burger" style={burgerStyle}>click me</button>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element">NAGA</li>
-          <li className="menu-element">Mots de Poles</li>
-          <li className="menu-element">Pougnes</li>
-          <li className="menu-element">Programme</li>
-          <li className="menu-element">Organigramme</li>
-          <li className="menu-element">Partenaires</li>
-          <li className="menu-element">FAQ</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>Mots de Poles</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>Pougnes</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>Organigramme</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>Partenaires</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"FAQ")}>FAQ</li>
         </ul>
-        <ControlPages pageToShow="FAQ" />
+        <ControlPages pageToShow={this.state.pageToShow} />
       </div>
     );
     }
