@@ -49,7 +49,7 @@ export default class MenuList extends React.Component {
     }
 
     return(
-      <div>
+      <div className="menu">
         <button onClick={this.Open} className="burger" style={burgerStyle}>click me</button>
         <ul className="menu-list" style={ulStyle}>
           <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>

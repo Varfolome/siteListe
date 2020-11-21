@@ -4,6 +4,10 @@
   flex-flow: row nowrap;
 }
 
+.menu {
+  position: absolute;
+}
+
 .menu-element {
   padding: 18px 10px;
   cursor: pointer;
@@ -14,19 +18,29 @@
   border-radius: 12px;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
   background-color: gold;
+  font-size: 0px;
+  width: 50px;
+  height: 50px;
+  margin-left: 700px;
 }
 
 @media (max-width: 768px) {
+   .menu {
+     position: fixed;
+   }
+
    .menu-list {
      flex-flow: column nowrap;
      background-color: #0D2538;
      position: fixed;
-     top: 0;
+     top: 20;
      right: 0;
      height: 100vh;
      width: 300px;
      padding-top: 3.5rem;
      transition: transform 0.3s ease-in-out;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
    }
    .menu-element {
      color: #fff;
