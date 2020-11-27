@@ -9,7 +9,41 @@ export default class Partenaires extends React.Component {
   render() {
     return(
       <div>
-        <h1>This is Partenaires!</h1>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+        <br/>
+        <br/>
+
       </div>
     );
   }

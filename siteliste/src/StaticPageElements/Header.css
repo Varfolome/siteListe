@@ -1,3 +1,18 @@
 h1 {
   color: red;
 }
+
+.header {
+  width: 100%;
+  background: green;
+  transition: all 2s ease;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  height: 120px; 
+}
+
+.header:hover {
+  background: red;
+}
