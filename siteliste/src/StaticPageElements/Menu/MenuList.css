@@ -11,6 +11,12 @@
 .menu-control {
   background: gold;
   width: 100%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 35px rgba(0,0,0,0.4);
 }
 
 .menu-element {
