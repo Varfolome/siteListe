@@ -4,12 +4,12 @@
 
 import './Header.css';
 import Button from '../WidgetsAndElements/Button';
-import TextHeader1 from '../WidgetsAndElements/TextHeader1';
+import HeaderBloom from '../WidgetsAndElements/HeaderBloom';
 
 export default function Header() {
   return(
     <div className="header">
-      <TextHeader1 text="Naga"/>
+      <HeaderBloom text="Naga" />
     </div>
   );
 }
