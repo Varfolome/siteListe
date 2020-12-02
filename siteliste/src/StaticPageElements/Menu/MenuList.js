@@ -1,3 +1,9 @@
+/*
+  It's very important class.
+  We create there an adaptive menu, which controls navigation.
+  ControlPages component is used there, so all pages are dynamically rendered there.
+*/
+
 import React from 'react';
 import './MenuList.css';
 import ControlPages from './ControlPages';
@@ -8,9 +14,12 @@ export default class MenuList extends React.Component {
 
   constructor(props) {
     super(props);
+    //state.isOpen controls mobile menu and state.pageToShow is the name of the page to be rendered.
     this.state = {isOpen: false, pageToShow: "Naga"};
     this.Open = this.Open.bind(this);
   }
+
+  //this block is used to control scroll in the document
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, true);
@@ -20,13 +29,24 @@ export default class MenuList extends React.Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  scrollControl = React.createRef();
+  //______________________________________________________
+
+  /*
+    We define a standard js function to handleScroll, in order to have a menu pannel in
+    static position.
+  */
 
   handleScroll = () => {
-    let scrolled = document.documentElement.scrollTop;
-    let menuControl = document.querySelector('.menu-control');
+    let scrolled = document.documentElement.scrollTop; // returns scrolled distance
+    let menuControl = document.querySelector('.menu-control'); // refers to menu pannel
+    /*
+    'uncomment to compare scrolled and height of pannel + header'
     let h = menuControl.clientHeight + 120;
     console.log(scrolled + ' ' + h);
+    */
+
+    // static position
+
     if(scrolled > 120) {
       console.log("here");
       let scroll = (scrolled - 120) + "px";
@@ -39,19 +59,27 @@ export default class MenuList extends React.Component {
     }
  };
 
-  Open() {
+
+// opens a menu
+
+ Open() {
     this.setState(state => ({
       isOpen: !state.isOpen
     }));
   }
 
-  showPage(pageName) {
+//changes state in order to show selected page
+
+ showPage(pageName) {
     this.setState(state => ({
       pageToShow: pageName
     }));
   }
 
   render() {
+
+    // start of a block that dynamically make difference between desktop and mobile styles for menu
+    
     const windowWidth = window.innerWidth;
     let ulStyle = {};
     let burgerStyle = {};
@@ -75,6 +103,9 @@ export default class MenuList extends React.Component {
         display: 'none'
       };
     }
+
+    // end-of-bloock________________________________________
+
 
     return(
       <div className="menu" ref={this.nav}>

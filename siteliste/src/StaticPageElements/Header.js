@@ -1,3 +1,7 @@
+/*
+  Header functional class
+*/
+
 import './Header.css';
 import Button from '../WidgetsAndElements/Button';
 import TextHeader1 from '../WidgetsAndElements/TextHeader1';

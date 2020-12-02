@@ -9,7 +9,7 @@
   width: 100%;
 }
 .menu-control {
-  background: gold;
+  background: #8a8;
   width: 100%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
@@ -32,12 +32,16 @@
   font-size: 0px;
   width: 50px;
   height: 50px;
-  margin-left: 700px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
    .menu {
      position: fixed;
+   }
+
+   .burger {
+     width: 7%;
+     margin-left: 93%;
    }
 
    .menu-list {
@@ -55,5 +59,12 @@
    }
    .menu-element {
      color: #fff;
+   }
+ }
+
+ @media (max-width: 500px) {
+   .burger {
+     width: 14%;
+     margin-left: 86%;
    }
  }

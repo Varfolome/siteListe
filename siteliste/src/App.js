@@ -1,3 +1,9 @@
+/*
+  The heart of application. There is 3 components Header, MenuList and Footer
+  The Header and the Footer are always on the page and MenuList contain menu and pages
+  controlled by this menu.
+*/
+
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';

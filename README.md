@@ -30,15 +30,22 @@ Voud devez installer [Node.js](https://nodejs.org/en/)
 
 Le class fonctionnel principal est App.js. La version finale de l'application est contenue dedans.
 C'est une application mono-page, càd tout est contenu en une seul page avec l'affichage conditionnel.
+Les commentaires sont en anglais.
 
 ## Les components
 
 ### StaticPageElements
 Dossier StaticPageElements contient des parties de la page qui ne changent pas (sont présentes partout et sont toujours visibles). Cettes parties doivent être adaptive et autonome. Chaque cette partie peut exister séparemment et peut être regrouper avec les autres.
 
+#### StaticPageElements/Menu
+Ce dosssier contient
+  1) ControlPages.js qui contrôle l'affichage des pages en fonction de l'argument pageToShow
+  2) MenuList.js qui est la classe de menu qui change l'état (state) et "render" alors des différentes page
+  à l'aide de ControlPages.js
+
 ### Pages
 
-Ce dossier contient des pages dont l'affichage on côntrole avec le Menu.js qui est statique. En théorie ce sont les seuls fichiers où on est autorisé d'utiliser BootStrap.
+Ce dossier contient des pages dont l'affichage on côntrole avec le ControlPages.js qui est statique. En théorie ce sont les seuls fichiers où on est autorisé d'utiliser BootStrap.
 
 ### WidgetsAndElements
 
