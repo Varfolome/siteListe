@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.Titre, .Reseaux{
+	width: 700px;
+	margin: auto;
+}
+.Reseaux {
+	border: 2px solid black;
+	box-shadow: 4px 4px 5px black;
+}
