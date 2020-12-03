@@ -1,3 +1,7 @@
+:root {
+  --snake-scroll-width : 0%;
+}
+
 .menu-list {
   list-style: none;
   display: flex;
@@ -17,6 +21,19 @@
   box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
   box-shadow: 0px 0px 30px rgba(0,0,0,0.6);
   box-shadow: 0px 0px 35px rgba(0,0,0,0.4);
+}
+
+.menu-scroll-control {
+  width: 100%;
+  overflow: hidden;
+}
+
+.snake-scroller {
+  width: var(--snake-scroll-width);
+  height: 6px;
+  background: green;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .menu-element {
