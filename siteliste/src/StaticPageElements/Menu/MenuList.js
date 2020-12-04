@@ -7,7 +7,7 @@
 import React from 'react';
 import './MenuList.css';
 import ControlPages from './ControlPages';
-
+import snake_scroll from './snake-scroll.png';
 
 
 export default class MenuList extends React.Component {
@@ -39,6 +39,7 @@ export default class MenuList extends React.Component {
   handleScroll = () => {
     let scrolled = document.documentElement.scrollTop; // returns scrolled distance
     let scrollH = document.documentElement.scrollHeight - window.innerHeight;
+    let scrollFixed = window.innerHeight - 60;
     let menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
@@ -50,9 +51,9 @@ export default class MenuList extends React.Component {
 
     // static position
 
-    if(scrolled > 120) {
+    if(scrolled > scrollFixed) {
       console.log("here");
-      let scroll = (scrolled - 120) + "px";
+      let scroll = (scrolled - scrollFixed) + "px";
       menuControl.style.top = scroll;
       menuControl.style.position = "absolute";
     }

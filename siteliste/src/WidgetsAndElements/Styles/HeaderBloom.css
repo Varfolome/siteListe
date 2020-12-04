@@ -8,9 +8,11 @@
   padding-left: 20px;
   box-sizing: border-box;
   padding-top: 40px;
+  text-align: center;
 }
 
 .bloom {
+  text-align: center;
   font-size: calc(20px + 7vh);
   line-height: calc(20px + 9vh);
 /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
