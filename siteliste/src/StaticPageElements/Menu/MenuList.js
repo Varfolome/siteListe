@@ -43,6 +43,7 @@ export default class MenuList extends React.Component {
     let menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
+    document.documentElement.style.setProperty("--mobile-height", window.innerHeight + "px");
     /*
     'uncomment to compare scrolled and height of pannel + header'
     let h = menuControl.clientHeight + 120;
@@ -78,6 +79,7 @@ export default class MenuList extends React.Component {
     this.setState(state => ({
       pageToShow: pageName
     }));
+    this.Open();
   }
 
   render() {
@@ -90,11 +92,11 @@ export default class MenuList extends React.Component {
     let open = this.state.isOpen;
     if (windowWidth <= 790 && !open) {
       ulStyle = {
-        transform: 'translateX(100%)'
+        transform: 'translateY(-100%)'
       };
     } else {
       ulStyle = {
-        transform: 'translateX(0)'
+        transform: 'translateY(0)'
       }
     }
 

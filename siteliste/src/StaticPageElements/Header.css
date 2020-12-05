@@ -18,6 +18,12 @@ h1 {
   background-position: center;
 }
 
+@media (max-width: 770px) {
+  .header {
+    margin-top: 60px;
+  }
+}
+
 .apearing-description {
   text-align: right;
   box-sizing: border-box;
