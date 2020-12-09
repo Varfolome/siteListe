@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../photos/ORGA.png'
+import img from '../photos/ORGA.jpg'
 import './PagesStyles/Organigramme.css'
 
 export default class Organigramme extends React.Component {
@@ -10,8 +10,8 @@ export default class Organigramme extends React.Component {
 
   render() {
     return(
-      <div class="imgOrga">
-        <img src={img} alt="Organigramme Naga" />
+      <div className="imgOrga">
+        <img src={img} className="img-fluid" alt="Organigramme Naga" />
       </div>
     );
   }
