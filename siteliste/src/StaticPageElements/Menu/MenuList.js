@@ -17,6 +17,7 @@ export default class MenuList extends React.Component {
     //state.isOpen controls mobile menu and state.pageToShow is the name of the page to be rendered.
     this.state = {isOpen: false, pageToShow: "Naga"};
     this.Open = this.Open.bind(this);
+    document.documentElement.style.setProperty("--mobile-height", window.innerHeight + "px");
   }
 
   //this block is used to control scroll in the document
@@ -43,7 +44,6 @@ export default class MenuList extends React.Component {
     let menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
-    document.documentElement.style.setProperty("--mobile-height", window.innerHeight + "px");
     /*
     'uncomment to compare scrolled and height of pannel + header'
     let h = menuControl.clientHeight + 120;

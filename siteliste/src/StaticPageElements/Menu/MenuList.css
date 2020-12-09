@@ -65,21 +65,24 @@
 }
 
 @media (max-width: 770px) {
-   .menu {
-     position: fixed;
-   }
+
+  .menu {
+    position: absolute;
+    z-index: 50;
+    overflow: hidden;
+  }
 
    .menu-control {
      position: fixed;
      top: 0;
      padding-left: 0;
+     z-index: 60;
    }
 
    .burger {
-     width: 7%;
-     margin-left: 93%;
+     width: 3%;
      z-index: 100;
-     position: absolute;
+     position: fixed;
    }
 
    .menu-list {
@@ -91,8 +94,10 @@
      height: var(--mobile-height);
      width: 100%;
      text-align: center;
-     padding-top: 2.5rem;
+     padding-top: 0.5rem;
      transition: transform 0.5s ease-in-out;
+     overflow: hidden;
+     z-index: 70;
 
    }
    .menu-element {
@@ -104,5 +109,8 @@
    .burger {
      width: 14%;
      margin-left: 86%;
+   }
+   .menu-element {
+     padding: 5px 4px;
    }
  }
