@@ -41,7 +41,8 @@ export default class MenuList extends React.Component {
     let scrolled = document.documentElement.scrollTop; // returns scrolled distance
     let scrollH = document.documentElement.scrollHeight - window.innerHeight;
     let scrollFixed = window.innerHeight - 60;
-    let menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
+    const menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
+    const menu = document.querySelector('.menu');
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
     /*
@@ -56,11 +57,14 @@ export default class MenuList extends React.Component {
       console.log("here");
       let scroll = (scrolled - scrollFixed) + "px";
       menuControl.style.top = scroll;
+      menu.style.position = "absolute";
       menuControl.style.position = "absolute";
+
     }
     else {
       menuControl.style.top = "120px";
       menuControl.style.position="";
+      menu.style.position = "";
     }
  };
 

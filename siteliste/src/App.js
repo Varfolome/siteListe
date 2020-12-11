@@ -10,6 +10,7 @@ import ReactDOM from 'react-dom';
 import Header from './StaticPageElements/Header';
 import MenuList from './StaticPageElements/Menu/MenuList';
 
+
 export default class App extends React.Component {
 
   constructor(props) {
@@ -19,9 +20,11 @@ export default class App extends React.Component {
 
   render() {
     return (
+      <div className="app">
       <div className="main">
         <Header />
         <MenuList isOpen="false" />
+      </div>
       </div>
   );
 }

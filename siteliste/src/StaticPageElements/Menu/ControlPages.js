@@ -12,18 +12,25 @@ import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
 import Pougnes from '../../Pages/Pougnes'; //Pougnes page
 import Programme from '../../Pages/Programme'; //Programme page
+import Footer from '../Footer';
 
 export default function ControlPages(props) {
 
     switch(props.pageToShow) {
       case "Naga":
         return (
+          <div>
           <Naga />
+          <Footer />
+          </div>
         );
         break;
       case "FAQ":
         return (
+          <div>
           <FAQ />
+          <Footer />
+          </div>
         );
         break;
       case "Organigramme":

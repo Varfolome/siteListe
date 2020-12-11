@@ -1,5 +1,17 @@
-.App {
-  text-align: center;
+.app {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
 }
 
 
