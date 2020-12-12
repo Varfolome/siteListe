@@ -6,4 +6,24 @@
   height: 70px;
   overflow: hidden;
   position: relative;
+  box-sizing: border-box;
+  padding-left: 45%;
+}
+
+.logos-list {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding-left: 25px;
+  transition: all 1.5s ease;
+}
+
+.logo:hover {
+  width: 70px;
+  height: 70px;
 }

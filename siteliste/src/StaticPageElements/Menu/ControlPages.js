@@ -16,54 +16,40 @@ import Footer from '../Footer';
 
 export default function ControlPages(props) {
 
+    let page = <Naga />;
     switch(props.pageToShow) {
       case "Naga":
-        return (
-          <div>
-          <Naga />
-          <Footer />
-          </div>
-        );
+        page = <Naga />;
         break;
       case "FAQ":
-        return (
-          <div>
-          <FAQ />
-          <Footer />
-          </div>
-        );
+        page = <FAQ />;
         break;
       case "Organigramme":
-        return (
-          <Organigramme />
-        );
+        page = <Organigramme />;
         break;
       case "Partenaires":
-        return (
-          <Partenaires />
-        );
+        page = <Partenaires />;
         break;
       case "Poles":
-        return (
-          <Poles />
-        );
+        page = <Poles />;
         break;
       case "Pougnes":
-        return (
-          <Pougnes />
-        );
+        page = <Pougnes />;
         break;
       case "Programme":
-        return (
-          <Programme />
-        );
+        page = <Programme />;
         break;
       default:
-        return (
-          <Naga />
-        );
+        page = <Naga />;
 
 
 
     }
+
+    return(
+      <div>
+        {page}
+        <Footer />
+      </div>
+    );
 }

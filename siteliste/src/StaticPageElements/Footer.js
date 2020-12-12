@@ -7,8 +7,9 @@ export default function Footer(props) {
 
   return(
     <div className="footer">
-      <ul>
-        <li><a href=''><img src={facebook} /></a></li>
+      <ul className="logos-list">
+        <li className="logos-list-element"><a href=''><img className = "logo" src={facebook} /></a></li>
+        <li><a href=''><img className = "logo" src={instagram} /></a></li>
       </ul>
     </div>
   );
