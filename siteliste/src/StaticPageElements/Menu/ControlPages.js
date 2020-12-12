@@ -2,7 +2,7 @@ import Naga from '../../Pages/Naga';
 import FAQ from '../../Pages/FAQ';
 import Organigramme from '../../Pages/Organigramme';
 import Partenaires from '../../Pages/Partenaires';
-import Poles from '../../Pages/Poles';
+import Mots_des_poles from '../../Pages/Mots des pôles';
 import Pougnes from '../../Pages/Pougnes';
 import Programme from '../../Pages/Programme';
 
@@ -29,9 +29,9 @@ export default function ControlPages(props) {
           <Partenaires />
         );
         break;
-      case "Poles":
+      case "Mots_des_poles":
         return (
-          <Poles />
+          <Mots_des_poles />
         );
         break;
       case "Pougnes":
