@@ -2,11 +2,14 @@
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+
 }
 
 .appear-element {
   animation: from-dark 10s ease;
   color: white;
+  font-size: 24px;
+  text-shadow: 1px 1px 4px gold;
   opacity: 0;
   padding-left: 4px;
 }

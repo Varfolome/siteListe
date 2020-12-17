@@ -10,11 +10,10 @@ h1 {
   top: 0;
   bottom: 0;
   align-items: center;
-  background: black;
+  background: url(../WidgetsAndElements/photos/Fond_Orga.png);
   box-sizing: border-box;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(./snake-back.gif);
   background-position: center;
 }
 
@@ -25,10 +24,10 @@ h1 {
 }
 
 .apearing-description {
-  text-align: right;
+  text-align: center;
   box-sizing: border-box;
   width: 100%;
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 25%;
+  padding-top: 20%;
 }
