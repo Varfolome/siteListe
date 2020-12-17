@@ -13,6 +13,7 @@ import Poles from '../../Pages/Poles'; //Mots de poles page
 import Pougnes from '../../Pages/Pougnes'; //Pougnes page
 import Programme from '../../Pages/Programme'; //Programme page
 import Footer from '../Footer';
+import './ControlPages.css';
 
 export default function ControlPages(props) {
 
@@ -47,8 +48,8 @@ export default function ControlPages(props) {
     }
 
     return(
-      <div>
-        {page}
+      <div className="control-page-footer">
+          {page}
         <Footer />
       </div>
     );

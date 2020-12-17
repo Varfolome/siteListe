@@ -18,7 +18,7 @@ import respovoyage from '../photos/img_mdp/responum.jpg'
 
 
 
-export default class Mots_des_poles extends React.Component {
+export default class Poles extends React.Component {
 
   constructor(props) {
     super(props)
@@ -26,7 +26,7 @@ export default class Mots_des_poles extends React.Component {
 
   render() {
     return(
-      <div>
+      <div className = "poles">
         <h1>Voici le mot des pôles </h1>
         <div>
 
