@@ -60,19 +60,18 @@
 
 .burger {
   display: flex;
-  border-radius: 12px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
-  background-color: gold;
-  font-size: 0px;
-  width: 50px;
-  height: 50px;
+  background: url(../../WidgetsAndElements/photos/snakeburger.png);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 0px 0px black;
 }
 
 @media (max-width: 770px) {
 
   .menu {
     position: absolute;
-    z-index: 50;
+    z-index: 3;
     overflow: hidden;
   }
 
@@ -80,19 +79,18 @@
      position: fixed;
      top: 0;
      padding-left: 0;
-     z-index: 60;
+     z-index: 4;
    }
 
    .burger {
-     width: 7%;
-     z-index: 100;
+     z-index: 10;
      position: fixed;
-     margin-left: 93%;
+     margin-left: 92%;
    }
 
    .menu-list {
      flex-flow: column nowrap;
-     background-color: #0D2538;
+     background-color: rgba(50,50,50,1);
      position: fixed;
      top: 0;
      right: 0;
@@ -102,7 +100,7 @@
      padding-top: 0.5rem;
      transition: transform 0.5s ease-in-out;
      overflow: hidden;
-     z-index: 70;
+     z-index: 5;
 
    }
    .menu-element {
