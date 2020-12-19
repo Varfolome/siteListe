@@ -6,7 +6,7 @@
 */
 
 import Naga from '../../Pages/Naga'; //Main page
-import FAQ from '../../Pages/FAQ'; //FAQ page
+import Ptdj from '../../Pages/Ptdj'; //FAQ page
 import Organigramme from '../../Pages/Organigramme'; // Organigramme page
 import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
@@ -22,8 +22,8 @@ export default function ControlPages(props) {
       case "Naga":
         page = <Naga />;
         break;
-      case "FAQ":
-        page = <FAQ />;
+      case "Ptdj":
+        page = <Ptdj />;
         break;
       case "Organigramme":
         page = <Organigramme />;

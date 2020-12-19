@@ -14,6 +14,18 @@
   padding-left: 4px;
 }
 
+@media (max-width: 770px) {
+  .appear-element {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+  .appear-element {
+    font-size: 13px;
+  }
+}
+
 @keyframes from-dark {
     0% {
       opacity: 0;

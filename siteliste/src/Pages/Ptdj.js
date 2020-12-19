@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class FAQ extends React.Component {
+export default class Ptdj extends React.Component {
 
   constructor(props) {
     super(props)
