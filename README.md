@@ -37,11 +37,20 @@ Les commentaires sont en anglais.
 ### StaticPageElements
 Dossier StaticPageElements contient des parties de la page qui ne changent pas (sont présentes partout et sont toujours visibles). Cettes parties doivent être adaptive et autonome. Chaque cette partie peut exister séparemment et peut être regrouper avec les autres.
 
+#### StaticPageElements/ControlPages
+Ce fichier est utilisé pour contrôler render de différentes pages
+
 #### StaticPageElements/Menu
 Ce dosssier contient
   1) ControlPages.js qui contrôle l'affichage des pages en fonction de l'argument pageToShow
   2) MenuList.js qui est la classe de menu qui change l'état (state) et "render" alors des différentes page
   à l'aide de ControlPages.js
+
+#### StaticPageElements/Header
+C'est un header qui est utilisé dans MenuList
+
+#### StaticPageElements/Footer
+C'est un footer qu'on render dans ControlPages.js
 
 ### Pages
 
@@ -51,3 +60,8 @@ Ce dossier contient des pages dont l'affichage on côntrole avec le ControlPages
 
 Ce dossier contient tous les petits bloques avec lesquelles on construit notre sites (boutons, text, spinner, etc...).
 Ces éléments sont adaptives (s'adaptent aux écrans) et réutilisable. On crée ainsi notre porpre bibliothéque d'éléments
+
+## Server - Client
+
+On dispose de serveur nodeJS-express, qui utilise la base de données stockant des commandes de petit déj.
+Il permet l'affichage de tout les commandes, création d'une commande avec confirmation par mail, regardez le status de la commande. Suppression de commande est effectué directement dans la base de données.
