@@ -1,5 +1,6 @@
 import React from 'react';
 import './PagesStyles/Poles.css';
+import Block_VP from '../WidgetsAndElements/Block_VP';
 
 import pres from '../photos/img_mdp/pres.jpg'
 
@@ -25,6 +26,8 @@ export default class Poles extends React.Component {
   }
 
   render() {
+
+
     return(
       <div className = "poles">
         <h1>Voici le mot des pôles </h1>
@@ -45,13 +48,8 @@ export default class Poles extends React.Component {
 
             <div className="lign">
 
-              <div className="block">
-                <h3 className="motdupole">VP IMT-BS </h3>
-                <div className="imgtext">
-                  <img src={vpimtbs} className="img_vp" alt="VP IMT-BS" title="VP IMT-BS" />
-                  <h5 className="text">Slt, c'est Grego </h5>
-                </div>
-              </div>
+              <Block_VP title="VP IMT-BS" img={vpimtbs} text="Slt, c'est Grego "/>
+
 
               <div className="block">
                 <h3 className="motdupole">VP TSP </h3>
