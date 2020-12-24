@@ -5,7 +5,7 @@
 
 .conteneur {
 	display: flex;
-	justify-content: space-around;
+	box-sizing: border-box;
 }
 
 h5 {
@@ -27,4 +27,5 @@ p {
 
 .card {
 	margin: 1%;
+	box-sizing: border-box;
 }

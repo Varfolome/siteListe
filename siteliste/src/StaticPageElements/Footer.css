@@ -19,6 +19,7 @@
   width: 70px;
   height: 70px;
   padding-left: 35px;
+  padding-top: 14px;
 }
 
 .rs-logo {
@@ -27,7 +28,9 @@
   transition: all 1.5s ease;
 }
 
-.rs-logo:hover {
-  width: 70px;
-  height: 70px;
+@media(min-width : 800px) {
+  .rs-logo:hover {
+    width: 56px;
+    height: 56px;
+  }
 }

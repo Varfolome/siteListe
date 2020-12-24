@@ -3,8 +3,8 @@
 }
 
 @font-face {
-   font-family: 'MetalMacabre';
-   src: url(../../WidgetsAndElements/Fonts/metal-macabre/MetalMacabre.ttf) format('truetype');
+   font-family: 'Cabin-Regular';
+   src: url(../../WidgetsAndElements/Fonts/Cabin-Regular.ttf) format('truetype');
 }
 
 .menu-list {
@@ -23,7 +23,7 @@
   background-size: cover;
   width: 100%;
   height: 60px;
-  padding-left: 15%;
+  padding-left: 9%;
   box-shadow: 20px 10px 3px black;
   box-shadow: 0px 0px 20px black;
   box-shadow: 0px 0px 27px rgba(0,0,0,0.8);
@@ -46,16 +46,15 @@
 
 .menu-element {
   padding: 18px 10px;
+  font-size: 22px;
   color: green;
   text-shadow: 0px 0px 2px gray;
   cursor: pointer;
-  font-family: MetalMacabre;
+  font-family: Cabin-Regular;
 }
 
 .menu-element:hover {
   text-decoration: underline;
-  text-shadow: 0px 0px 2px gold;
-  text-shadow: 0px 0px 5px white;
 }
 
 .burger {
