@@ -1,4 +1,5 @@
 import './Styles/YourPremixCard.css';
+import Choice from './Choice';
 
 export default function YourPremixCard(props) {
   return(
@@ -6,7 +7,7 @@ export default function YourPremixCard(props) {
       <div className="your-theme-logo"></div>
       <div className="your-card-content">
         <div className="your-premix-image-wrapper">
-          <img src={props.premixPhoto} className="rounded mx-auto d-block" alt="">
+          <img src={props.premixPhoto} className="rounded mx-auto d-block" alt="" />
           </div>
           <div className="premix-description-wrapper">
             <span className="premix-description">{props.description}</span>

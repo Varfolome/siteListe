@@ -6,7 +6,7 @@ export default function PremixCard(props) {
       <div className="theme-logo"></div>
       <div className="card-content">
         <div className="premix-image-wrapper">
-          <img src={props.premixPhoto} className="rounded mx-auto d-block" alt="">
+          <img src={props.premixPhoto} className="rounded mx-auto d-block" alt="" />
           </div>
           <div className="premix-description-wrapper">
           <span className="premix-description">{props.description}</span>
