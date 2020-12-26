@@ -21,13 +21,32 @@ h1 {
 
 .naga-logo {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
   background-size: cover;
   background-image: url(../WidgetsAndElements/photos/Logo_Naga.png);
   box-sizing: border-box;
   position: absolute;
   margin-top: 60px;
+}
+
+@media (max-width: 2570px) {
+  .naga-logo {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .naga-logo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .naga-logo {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 770px) {
