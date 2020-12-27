@@ -13,24 +13,24 @@ export default class Premix extends React.Component {
     return(
       <div className="container">
         <div className="mx-auto your-premix-wrapper">
-          <YourPremixCard />
+          <YourPremixCard description="blabba" premixPhoto={test} />
         </div>
         <br/>
         <hr/>
         <br/>
         <div className="existing-premix">
-          <ul className="first-class-premi-list">
-            <li className="first-class-premix"><PremixCard description="" premixPhoto={test}/></li>
-            <li className="first-class-premix"><PremixCard description="" premixPhoto={test}/></li>
-            <li className="first-class-premix"><PremixCard description="" premixPhoto={test}/></li>
+          <ul className="first-class-premix-list">
+            <li className="first-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
+            <li className="first-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
+            <li className="first-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
           </ul>
           <br/>
           <hr/>
           <br/>
           <ul className="second-class-premix-list">
-            <li className="second-class-premix"><PremixCard description="" premixPhoto={test}/></li>
-            <li className="second-class-premix"><PremixCard description="" premixPhoto={test}/></li>
-            <li className="second-class-premix"><PremixCard description="" premixPhoto={test}/></li>
+            <li className="second-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
+            <li className="second-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
+            <li className="second-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
           </ul>
         </div>
       </div>

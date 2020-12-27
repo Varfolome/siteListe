@@ -13,8 +13,10 @@ export default function YourPremixCard(props) {
             <span className="premix-description">{props.description}</span>
           </div>
       </div>
-      <div className="choice-menu">
-        <Choice object="" options=""/>
+      <div className="choice-menu mx-auto">
+        <Choice object="alcool" options="vodka martini wiski"/>
+        <Choice object="diluant" options="jus coca fanta" />
+        <Choice object="epices" options="sel poivre romarin" />
       </div>
       <div className="confirm-menu">
         <button type="button" class="btn btn-danger">Recommencer</button>
