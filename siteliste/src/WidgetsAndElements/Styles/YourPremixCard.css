@@ -9,3 +9,32 @@
     flex-flow: column;
   }
 }
+
+.choice-control-button {
+  margin-left: 15px;
+}
+
+
+
+.choice-menu {
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.confirm-menu {
+  box-sizing: border-box;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.premix-description-wrapper {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 2%;
+}
+
+.premix-description {
+  font-size: 2rem;
+  color: white;
+}

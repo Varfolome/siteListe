@@ -6,7 +6,7 @@ export default function Choice(props) {
   const optionsList = options.map((word) => <option>{word}</option>);
 
   return(
-    <div>
+    <div className="selector-wrapper">
       <select class="form-select" aria-label={props.object}>
       <option selected>{props.object}</option>
       {optionsList}

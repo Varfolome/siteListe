@@ -10,13 +10,14 @@ export default class Premix extends React.Component {
     super(props);
   }
   render() {
+    let yourPremixCardDescription = "Tu peux creer ton propre Premix. Choisit des ingredients et confirme le. Tu peux aussi faire un premix aleatoire"
     return(
       <div className="container">
         <div className="mx-auto your-premix-wrapper">
-          <YourPremixCard description="blabba" premixPhoto={test} />
+          <YourPremixCard description={yourPremixCardDescription} premixPhoto={test} />
         </div>
         <br/>
-        <hr/>
+        <hr className="divisor" />
         <br/>
         <div className="existing-premix">
           <ul className="first-class-premix-list">
@@ -25,7 +26,7 @@ export default class Premix extends React.Component {
             <li className="first-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
           </ul>
           <br/>
-          <hr/>
+          <hr className="divisor"/>
           <br/>
           <ul className="second-class-premix-list">
             <li className="second-class-premix"><PremixCard description="blabba" premixPhoto={test}/></li>
