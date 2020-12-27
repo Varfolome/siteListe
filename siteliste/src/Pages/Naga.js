@@ -9,18 +9,19 @@ export default class Naga extends React.Component {
 
   render() {
     return(
-    	<div>
-      <div className="Titre">
+    	<div className="Page">
+      <div className="container">
         <h1>Vous entrez en territoire Naga...</h1>
-        <p>(Insérer ici une photo de tous les membres de la liste ensemble ?)</p>
+        <p>Bienvenue sur le site de la liste Naga.</p>
       </div>
-      <div className="Reseaux">
-      	<h2>Suivre les Nagas sur les réseaux</h2>
-      	<p>Pour connaître toutes les actualités des Nagas, n'hésitez pas à nous suivre sur nos réseaux :<br />
-      	Facebook : <a href="https://www.facebook.com/Naga.ListeBDE.2021/">Naga - Liste BDE 2021</a><br />
-      	Instagram : <a href="https://www.instagram.com/naga.2021/?igshid=qydk0gnm5ao2">@naga.2021</a>
-      	</p>
+      <div className="container">
+      	<h2>Qui sommes-nous ?</h2>
+      	<iframe src="https://www.youtube.com/embed/9ySNQa4mwOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <div className="container">
+      	<h2>Les news des Naga</h2>
+      	<p>Rien de prévu pour le moment... Mais ça ne saurait tarder...</p>
+      	</div>
       </div>
     );
   }
