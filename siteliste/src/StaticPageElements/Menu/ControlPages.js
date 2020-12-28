@@ -6,7 +6,7 @@
 */
 
 import Naga from '../../Pages/Naga'; //Main page
-import Ptdj from '../../Pages/Ptdj'; //FAQ page
+import Ptdj from '../../Pages/Ptdj';
 import Organigramme from '../../Pages/Organigramme'; // Organigramme page
 import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
@@ -23,9 +23,6 @@ export default function ControlPages(props) {
       case "Naga":
         page = <Naga />;
         break;
-      case "Ptdj":
-        page = <Ptdj />;
-        break;
       case "Organigramme":
         page = <Organigramme />;
         break;
@@ -40,9 +37,6 @@ export default function ControlPages(props) {
         break;
       case "Programme":
         page = <Programme />;
-        break;
-      case "Premix":
-        page = <Premix />;
         break;
       default:
         page = <Naga />;
