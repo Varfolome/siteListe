@@ -17,7 +17,6 @@ export default class MenuList extends React.Component {
     //state.isOpen controls mobile menu and state.pageToShow is the name of the page to be rendered.
     this.state = {isOpen: false, pageToShow: "Naga"};
     this.Open = this.Open.bind(this);
-    document.documentElement.style.setProperty("--mobile-height", window.innerHeight + "px");
   }
 
   //this block is used to control scroll in the document
@@ -38,33 +37,21 @@ export default class MenuList extends React.Component {
   */
 
   handleScroll = () => {
-    let scrolled = document.documentElement.scrollTop; // returns scrolled distance
+    let scrolled = document.documentElement.scrollTop;
     let scrollH = document.documentElement.scrollHeight - window.innerHeight;
-    let scrollFixed = window.innerHeight - 80;
-    const menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
-    const menu = document.querySelector('.menu');
+    const menuScrollControl = document.querySelector('.menu-scroll-control');
+    let headerHeight = document.querySelector('.header').clientHeight;
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
-    /*
-    'uncomment to compare scrolled and height of pannel + header'
-    let h = menuControl.clientHeight + 120;
-    console.log(scrolled + ' ' + h);
-    */
 
-    // static position
-
-    if(scrolled > scrollFixed) {
-      console.log("here");
-      let scroll = (scrolled - scrollFixed) + "px";
-      menuControl.style.top = scroll;
-      menu.style.position = "absolute";
-      menuControl.style.position = "absolute";
+    if(scrolled >= headerHeight) {
+      menuScrollControl.style.top = 0 + "px";
+      menuScrollControl.style.position = "fixed";
 
     }
     else {
-      menuControl.style.top = "80px";
-      menuControl.style.position="";
-      menu.style.position = "";
+      menuScrollControl.style.top = "";
+      menuScrollControl.style.position = "";
     }
  };
 

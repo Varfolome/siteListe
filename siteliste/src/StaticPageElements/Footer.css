@@ -7,20 +7,20 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  padding-left: 40%;
 }
 
 .logos-list {
   list-style: none;
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 .logos-list-element {
   width: 70px;
   height: 70px;
-  padding-left: 35px;
   padding-top: 14px;
 }
+
 
 .rs-logo {
   width: 50px;

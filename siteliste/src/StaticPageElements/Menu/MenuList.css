@@ -36,6 +36,8 @@
 .menu-scroll-control {
   width: 100%;
   overflow: hidden;
+  display: flex;
+  flex-flow: column;
 }
 
 .snake-scroller {
