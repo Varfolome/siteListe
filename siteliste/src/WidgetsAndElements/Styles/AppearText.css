@@ -2,6 +2,7 @@
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+  text-align: center;
 
 }
 
@@ -19,7 +20,7 @@
   }
 }
 
-@media(max-width: 1500px) {
+@media(max-width: 1610px) {
   .appear-element {
     font-size: 24px;
   }

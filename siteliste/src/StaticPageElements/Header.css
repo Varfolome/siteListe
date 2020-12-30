@@ -1,6 +1,12 @@
+:root {
+  --header-height : 0;
+}
+
+
 .header {
   width: 100%;
   transition: all 2s ease;
+  height: var(--header-height);
   padding: 0;
   margin: 0;
   top: 0;
@@ -31,7 +37,7 @@
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1610px) {
   .naga-logo {
     width: 300px;
     height: 300px;
@@ -65,6 +71,7 @@
 
 .apearing-description {
   text-align: center;
+  justify-content: center;
   box-sizing: border-box;
   width: 100%;
   padding-left: 15%;

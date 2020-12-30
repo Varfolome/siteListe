@@ -11,7 +11,14 @@ export default function Header() {
 
   document.onreadystatechange = () => {
     const header = document.querySelector('.header');
-    header.style.height = window.innerHeight - 60 + "px";
+    let headerHeight = window.innerHeight;
+    if (window.innerWidth <= 770) {
+      headerHeight -= 60;
+    }
+    else {
+      headerHeight -=80;
+    }
+    document.documentElement.style.setProperty("--header-height", headerHeight + "px");
   };
 
   return(

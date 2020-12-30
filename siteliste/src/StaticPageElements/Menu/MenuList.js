@@ -40,7 +40,7 @@ export default class MenuList extends React.Component {
   handleScroll = () => {
     let scrolled = document.documentElement.scrollTop; // returns scrolled distance
     let scrollH = document.documentElement.scrollHeight - window.innerHeight;
-    let scrollFixed = window.innerHeight - 60;
+    let scrollFixed = window.innerHeight - 80;
     const menuControl = document.querySelector('.menu-scroll-control'); // refers to menu pannel
     const menu = document.querySelector('.menu');
     let w = (scrolled / scrollH) * 100 + "%";
@@ -62,7 +62,7 @@ export default class MenuList extends React.Component {
 
     }
     else {
-      menuControl.style.top = "120px";
+      menuControl.style.top = "80px";
       menuControl.style.position="";
       menu.style.position = "";
     }
