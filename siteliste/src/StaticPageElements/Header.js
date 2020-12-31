@@ -13,7 +13,7 @@ export default function Header() {
   return(
     <div className="header">
         <div className="logo-wrapper">
-          <img src={nagaLogo} className="img-fluid naga-logo"/>
+          <a className="naga-link" href=""><img src={nagaLogo} className="img-fluid naga-logo"/></a>
         </div>
     </div>
   );
