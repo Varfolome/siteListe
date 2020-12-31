@@ -6,6 +6,7 @@ export default function Block_Pres(props) {
     <div className="block_pres">
       <div className="title_text_pres">
         <h3 className="title_pres">{props.title} </h3>
+        <h5 className="textname">{props.textname} </h5>
         <h5 className="text_pres">{props.text}</h5>
       </div>
       <img src={props.img} className="img_pres"
