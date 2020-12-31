@@ -6,13 +6,11 @@
 */
 
 import Naga from '../../Pages/Naga'; //Main page
-import Ptdj from '../../Pages/Ptdj';
 import Organigramme from '../../Pages/Organigramme'; // Organigramme page
 import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
 import Pougnes from '../../Pages/Pougnes'; //Pougnes page
 import Programme from '../../Pages/Programme'; //Programme page
-import Premix from '../../Pages/Premix';
 import Footer from '../Footer';
 import './ControlPages.css';
 

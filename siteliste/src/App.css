@@ -9,9 +9,29 @@
   position: relative;
 }
 
-.footer {
+.lang-menu-wrapper {
+  position: absolute;
   width: 100%;
-  position: relative;
+  justify-content: flex-end;
+}
+
+.lang-menu {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+.lang-menu-element {
+  width: 40px;
+  height: 40px;
+  padding-top: 7px;
+}
+
+.lang-logo {
+  width : 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
 

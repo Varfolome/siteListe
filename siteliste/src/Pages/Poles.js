@@ -10,36 +10,35 @@ import vpimtbs from '../photos/img_mdp/vpimtbs.jpg'
 import vptsp from '../photos/img_mdp/vptsp.jpg'
 import vpbachelor from '../photos/img_mdp/vpbachelor.jpg'
 
-import resposoiree from '../photos/img_mdp/soireerespo.png'
-import soiree1 from '../photos/img_mdp/soiree1.png'
-import soiree2 from '../photos/img_mdp/soiree2.png'
-import pougneimtbs from '../photos/img_mdp/pougneimtbs.png'
-import pougnetsp from '../photos/img_mdp/pougnetsp.png'
-import pougnebachelor from '../photos/img_mdp/pougnebachelor.png'
+import resposoiree from '../photos/img_mdp/soireerespo.jpg'
+import soiree1 from '../photos/img_mdp/soiree1.jpg'
+import soiree2 from '../photos/img_mdp/soiree2.jpg'
+import pougnetsp from '../photos/img_mdp/pougnetsp.jpg'
+import pougnebachelorandimtbs from '../photos/img_mdp/pougnebachelorandimtbs.jpg'
 
 import num from '../photos/img_mdp/num.jpg'
 import numrespo from '../photos/img_mdp/numrespo.jpg'
-import sl from '../photos/img_mdp/sl.png'
-import resposl from '../photos/img_mdp/slrespo.png'
-import voyage from '../photos/img_mdp/voyage.png'
-import respovoyage from '../photos/img_mdp/voyagerespo.png'
+import sl from '../photos/img_mdp/sl.jpg'
+import resposl from '../photos/img_mdp/slrespo.jpg'
+import voyage from '../photos/img_mdp/voyage.jpg'
+import respovoyage from '../photos/img_mdp/voyagerespo.jpg'
 
-import dd from '../photos/img_mdp/dd.png'
-import prev from '../photos/img_mdp/prevrespo.png'
-import resporits from '../photos/img_mdp/ritsrespo.png'
-import rits from '../photos/img_mdp/rits.png'
+import dd from '../photos/img_mdp/dd.jpg'
+import prev from '../photos/img_mdp/prevrespo.jpg'
+import resporits from '../photos/img_mdp/ritsrespo.jpg'
+import rits from '../photos/img_mdp/rits.jpg'
 
-import respore from '../photos/img_mdp/rerespo.png'
-import re from '../photos/img_mdp/re.png'
-import resposecret from '../photos/img_mdp/secretrespo.png'
-import secret from '../photos/img_mdp/secret.png'
-import respotres from '../photos/img_mdp/tresrespo.png'
-import tres from '../photos/img_mdp/tres.png'
+import respore from '../photos/img_mdp/rerespo.jpg'
+import re from '../photos/img_mdp/re.jpg'
+import resposecret from '../photos/img_mdp/secretrespo.jpg'
+import secret from '../photos/img_mdp/secret.jpg'
+import respotres from '../photos/img_mdp/tresrespo.jpg'
+import tres from '../photos/img_mdp/tres.jpg'
 
-import respocom from '../photos/img_mdp/comrespo.png'
-import com from '../photos/img_mdp/com.png'
-import swei from '../photos/img_mdp/swei.png'
-import tema from '../photos/img_mdp/tema.png'
+import respocom from '../photos/img_mdp/comrespo.jpg'
+import com from '../photos/img_mdp/com.jpg'
+import swei from '../photos/img_mdp/swei.jpg'
+import tema from '../photos/img_mdp/tema.jpg'
 
 
 
@@ -72,8 +71,8 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="1" title="VP IMT-BS" imgone={vpimtbs}
                   textname="Grégory Le Moal"
-                  text="Aussi grand que drôle, derrière son manque de tact 
-                  se cache une honnêteté sans faille et l’envie de toujours faire mieux. 
+                  text="Aussi grand que drôle, derrière son manque de tact
+                  se cache une honnêteté sans faille et l’envie de toujours faire mieux.
                   Sa bienveillance est naturelle, mais mieux vaut ne pas trop le décevoir. " />
               </div>
 
@@ -81,8 +80,8 @@ export default class Poles extends React.Component {
                 <Block_Pole nbr="1" title="VP TSP" imgone={vptsp}
                   textname="Sophie Ribault"
                   text="Certains disent que c'est la force tranquille du groupe
-                   mais son vrai visage est tout autre car elle vous fera sévèrement regretter chacunes 
-                   de vos boulettes. Maintenant qu'on le sait, tout le monde marche au pas... 
+                   mais son vrai visage est tout autre car elle vous fera sévèrement regretter chacunes
+                   de vos boulettes. Maintenant qu'on le sait, tout le monde marche au pas...
                    Donc merci Sophie ! (et nous frappe pas s'il-te-plaît)" />
               </div>
 
@@ -110,7 +109,7 @@ export default class Poles extends React.Component {
               </div>
 
               <div className="element_grille_50">
-                <Block_Pole nbr="3" title="Pougnes" imgone={pougneimtbs} imgtwo={pougnetsp} imgthree={pougnebachelor}
+                <Block_Pole nbr="3" title="Pougnes" imgone={pougnebachelorandimtbs} imgtwo={pougnetsp} imgthree={pougnebachelorandimtbs}
                   textname="Ludivine, Gaétan et Sarah"
                   text="Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez nous les pougnes on te propose une petite aide, un petit plus, qui t'aidera à passer ton année.
                   Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue le club B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
@@ -134,8 +133,8 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Séculog" imgone={resposl} imgtwo={sl}
                   textname="Jérémy et Luka"
-                  text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde, 
-                  on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité. 
+                  text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde,
+                  on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité.
                   On fait des créneaux aussi. " />
               </div>
 
@@ -183,8 +182,8 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Secrétariat" imgone={resposecret} imgtwo={secret}
                   textname="Kenza et Pierre"
-                  text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde, 
-                  on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité. 
+                  text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde,
+                  on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité.
                   On fait des créneaux aussi. " />
               </div>
 
@@ -201,16 +200,16 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Communication" imgone={respocom} imgtwo={com}
                   textname="Léo et Quentin"
-                  text="Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, 
+                  text="Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir,
                   la com utilise toutes ces appli pour créer et publier ses meilleures affiches et vidéos !
                   Que ça soit fougère ou écailles de serpent, on utilise nos meilleures fonds pour impressionner l’INT" />
               </div>
               <div className="element_grille_33">
                 <Block_Pole nbr="1" title="SWEI" imgone={swei}
                   textname="Emma"
-                  text="SEI, WEI pas l'temps d'niaiser...fin une fois qu'on aura gagné, 
-                  en attendant tu passes des coups de mains aux pôles en besoin d'aides. 
-                  Une fois la victoire remportée, tout l'int compte sur toi pour leur offrir 
+                  text="SEI, WEI pas l'temps d'niaiser...fin une fois qu'on aura gagné,
+                  en attendant tu passes des coups de mains aux pôles en besoin d'aides.
+                  Une fois la victoire remportée, tout l'int compte sur toi pour leur offrir
                   les meilleurs moments de leur scolarité <3 " />
               </div>
               <div className="element_grille_33">
