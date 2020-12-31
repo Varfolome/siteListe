@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Cabin-Regular';
+	src: url(../PagesFonts/cabin/Cabin-Regular.ttf) format('truetype');
+}
+
+.conteneur {
+	display: flex;
+	box-sizing: border-box;
+}
+
+h5 {
+	font-family: Cabin-Regular;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-family: Cabin-Regular;
+}
+
+@media (max-width: 770px) {
+  .conteneur {
+  	display: flex;
+  	flex-direction: column;
+  }
+}
+
+.card {
+	margin: 1%;
+	box-sizing: border-box;
+}

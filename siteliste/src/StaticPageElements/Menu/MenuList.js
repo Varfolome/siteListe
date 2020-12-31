@@ -121,7 +121,7 @@ export default class MenuList extends React.Component {
       <div className="menu">
       <div className="menu-scroll-control">
         <div className="menu-control">
-        <button onClick={this.Open} className="burger" style={burgerStyle}></button>
+        <div onClick={this.Open} className="burger" style={burgerStyle}></div>
         <ul className="menu-list" style={ulStyle}>
           <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>Mots des Pôles</li>
@@ -129,6 +129,7 @@ export default class MenuList extends React.Component {
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>Organigramme</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>Partenaires</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Premix")}>Premix</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Ptdj")}>Petit dej</li>
         </ul>
         </div>

@@ -25,6 +25,14 @@
   animation: blink 10s  ease infinite;
   -webkit-animation: blink 10s ease infinite;
 }
+
+@media(max-width: 500px) {
+  .bloom {
+  font-size: calc(16px + 5vh);
+  line-height: calc(16px + 7vh);
+  }
+}
+
 @-webkit-keyframes blink {
   20%,
   24%,

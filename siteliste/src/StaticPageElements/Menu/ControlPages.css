@@ -1,6 +1,7 @@
 .control-page-footer {
   width: 100%;
   box-sizing: border-box;
-  background-image: url(../../WidgetsAndElements/photos/Fond_PP.png);
+  background: rgb(63,44,68);
+  background: linear-gradient(90deg, rgba(63,44,68,1) 0%, rgba(63,121,41,1) 26%, rgba(99,107,99,1) 46%, rgba(57,133,78,1) 69%, rgba(45,45,19,1) 92%, rgba(63,44,68,1) 100%);
   background-size: auto;
 }
