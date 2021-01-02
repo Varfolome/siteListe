@@ -1,5 +1,6 @@
 :root {
   --snake-scroll-width : 0%;
+  --mobile-height : 100%;
 }
 
 @font-face {
