@@ -1,73 +1,44 @@
+
+
 .header {
   width: 100%;
   transition: all 2s ease;
+  height: auto;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   top: 0;
   bottom: 0;
   align-items: center;
-  background: url(../WidgetsAndElements/photos/Fond_Orga.png);
+  background: url(../WidgetsAndElements/photos/Fond_PP.png);
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
 }
 
 .naga-logo {
   border-radius: 50%;
-  background-size: cover;
-  background-image: url(../WidgetsAndElements/photos/Logo_Naga.png);
-  box-sizing: border-box;
-  position: absolute;
-  margin-top: 60px;
+  width: 220px;
+  height: 220px;
 }
 
-@media (max-width: 2570px) {
-  .naga-logo {
-    width: 600px;
-    height: 600px;
-  }
-}
+@media(max-width : 770px) {
 
-@media (max-width: 1500px) {
-  .naga-logo {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .naga-logo {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-@media (max-width: 770px) {
   .header {
     margin-top: 60px;
   }
   .naga-logo {
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
   }
 }
 
-@media( max-width: 500px) {
-  .naga-logo {
-    width: 110px;
-    height: 110px;
-    margin-top: 70px;
-  }
-}
-
-.apearing-description {
+.logo-wrapper {
+  justify-content: center;
   text-align: center;
-  box-sizing: border-box;
   width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 20%;
+  box-sizing: border-box;
 }

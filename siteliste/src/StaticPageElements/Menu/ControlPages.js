@@ -6,13 +6,11 @@
 */
 
 import Naga from '../../Pages/Naga'; //Main page
-import Ptdj from '../../Pages/Ptdj'; //FAQ page
 import Organigramme from '../../Pages/Organigramme'; // Organigramme page
 import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
 import Pougnes from '../../Pages/Pougnes'; //Pougnes page
 import Programme from '../../Pages/Programme'; //Programme page
-import Premix from '../../Pages/Premix';
 import Footer from '../Footer';
 import './ControlPages.css';
 
@@ -22,9 +20,6 @@ export default function ControlPages(props) {
     switch(props.pageToShow) {
       case "Naga":
         page = <Naga />;
-        break;
-      case "Ptdj":
-        page = <Ptdj />;
         break;
       case "Organigramme":
         page = <Organigramme />;
@@ -40,9 +35,6 @@ export default function ControlPages(props) {
         break;
       case "Programme":
         page = <Programme />;
-        break;
-      case "Premix":
-        page = <Premix />;
         break;
       default:
         page = <Naga />;

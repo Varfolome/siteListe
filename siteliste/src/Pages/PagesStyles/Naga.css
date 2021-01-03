@@ -28,6 +28,12 @@ p {
 }
 
 iframe {
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
 	width: 560px;
 	height: 315px;
 	display: block;
@@ -40,6 +46,13 @@ iframe {
 		height: 225px;
 		display: block;
 		margin: 0 auto;
+	}
+}
+
+@media(max-width: 400px) {
+	iframe {
+		width: 280px;
+		height: 167px;
 	}
 }
 

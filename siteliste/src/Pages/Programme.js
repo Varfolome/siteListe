@@ -8,8 +8,11 @@ export default class Programme extends React.Component {
 
   render() {
     return(
-      <div>
-        <h1>This is Programme!</h1>
+      <div className="programme">
+        <div className="general-purposes">
+        </div>
+        <div className="specific-purposes">
+        </div>
       </div>
     );
   }

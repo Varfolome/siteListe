@@ -16,7 +16,7 @@ export default class Naga extends React.Component {
       </div>
       <div className="container">
       	<h2>Qui sommes-nous ?</h2>
-      	<iframe src="https://www.youtube.com/embed/9ySNQa4mwOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      	<iframe src="https://www.youtube.com/embed/9ySNQa4mwOw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div className="container">
       	<h2>Les news des Naga</h2>
