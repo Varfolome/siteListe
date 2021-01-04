@@ -103,6 +103,11 @@ export default class MenuList extends React.Component {
 
     // end-of-bloock________________________________________
 
+    let mdp = this.props.lang === "french" ? "Mots des poles" : "Word of group";
+    let pougnes = this.props.lang === "french" ? "Pougnes" : "I dont know";
+    let partenaires = this.props.lang === "french" ? "Partenaires" : "Friends";
+
+
 
     return(
       <div className="menu">
@@ -111,11 +116,11 @@ export default class MenuList extends React.Component {
         <div onClick={this.Open} className="burger" style={burgerStyle}></div>
         <ul className="menu-list" style={ulStyle}>
           <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>Mots des Pôles</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>Pougnes</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>{pougnes}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>Organigramme</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>Partenaires</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>{partenaires}</li>
         </ul>
         </div>
         <div className="snake-scroller"></div>

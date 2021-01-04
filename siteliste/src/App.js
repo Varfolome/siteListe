@@ -17,8 +17,14 @@ export default class App extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {lang: "french"};
   }
 
+  controlVersion(lang) {
+    this.setState(state => ({
+      lang: lang
+    }));
+  }
 
   render() {
     return (
@@ -26,12 +32,12 @@ export default class App extends React.Component {
       <div className="main">
         <div className="lang-menu-wrapper">
           <ul className="lang-menu">
-            <li className="lang-menu-element lang-french"><img src={french} className="lang-logo" /></li>
-            <li className="lang-menu-element lang-english"><img src={english} className="lang-logo" /></li>
+            <li className="lang-menu-element lang-french"><img src={french} className="lang-logo" onClick={this.controlVersion.bind(this,"french")}/></li>
+            <li className="lang-menu-element lang-english"><img src={english} className="lang-logo" onClick={this.controlVersion.bind(this,"english")} /></li>
           </ul>
         </div>
         <Header />
-        <MenuList isOpen="false" />
+        <MenuList isOpen="false" lang={this.state.lang}/>
       </div>
       </div>
   );
