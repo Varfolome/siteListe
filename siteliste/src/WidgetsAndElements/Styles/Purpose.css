@@ -1,0 +1,29 @@
+.purpose-img {
+  width : 20%;
+  height: 20%;
+}
+
+.center-sup-wrapper {
+  width: 100%;
+  justify-content: center;
+}
+
+.purpose-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.purpose-text-wrapper {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 40px;
+  width: 80%;
+}

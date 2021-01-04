@@ -1,0 +1,11 @@
+.general-purposes-list {
+  list-style: none;
+  justify-content: center;
+}
+
+.general-purposes {
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
