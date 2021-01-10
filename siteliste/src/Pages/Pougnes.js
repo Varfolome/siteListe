@@ -11,6 +11,8 @@ export default class Pougnes extends React.Component {
 
   render() {
     return(
+    	<div>
+    	  	<h1 className="titre">Les pougnes</h1>
       	<div className="conteneur">
 	        <div className="card">
 	  			<a href="https://drive.google.com/drive/folders/1-6rFmBaUlKVMvaJBF1d4uT3szFX9n6km?usp=sharing">
@@ -80,6 +82,7 @@ export default class Pougnes extends React.Component {
 						</div>
 	  			</div>
 			</div>
+		</div>
 		</div>
     );
   }
