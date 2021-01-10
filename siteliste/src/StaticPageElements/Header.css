@@ -12,7 +12,7 @@
   align-items: center;
   background: url(../WidgetsAndElements/photos/Fond_PP.png);
   box-sizing: border-box;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
