@@ -8,6 +8,7 @@ import React from 'react';
 import './MenuList.css';
 import ControlPages from './ControlPages';
 import snake_scroll from './snake-scroll.png';
+import naga from '../../photos/naga_titre_menu.png';
 
 
 export default class MenuList extends React.Component {
@@ -110,7 +111,7 @@ export default class MenuList extends React.Component {
         <div className="menu-control">
         <div onClick={this.Open} className="burger" style={burgerStyle}></div>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>Naga</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>Mots des Pôles</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>Pougnes</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>

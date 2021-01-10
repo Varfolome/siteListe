@@ -62,7 +62,11 @@ export default class Poles extends React.Component {
         <div>
           <Block_Pres title="Présidence" img={pres}
             textname="Ulysse Aubin"
-            text="être président de liste ..." />
+            text="Afin que le navire arrive à destination, Ulysse peut compter sur ses VP pour l’aider à guider 
+            le reste de l’équipage à travers la mer déchainée qu’est l’INT ! Mais avec leurs idées toutes plus folles 
+            les unes que les autres, on se demande parfois qui devrait être attaché au mât…"
+            text2="Ulysse, le président : rationnel, pragmatique, et efficace. 
+            Il opère avec un ratio énergie/sommeil imbattable." />
 
           <div className="block_VP">
             <h3 className="motdupole">Vice-Présidence</h3>
@@ -89,12 +93,15 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="1" title="VP Bachelor" imgone={vpbachelor}
                   textname="Albane Gavault"
-                  text="Duracell " />
+                  text="Petite pile dont l'énergie paraît inépuisable, elle booste la liste avec ses idées 
+                  tout en étant à l'écoute de chacun. Heureuse dans le noyau dur, ce spécimen hypersensible 
+                  à l'attitude paradoxale, peut paraître rêveuse, contemplative et parfois même très calme, 
+                  mais attention à ne pas la vexer au risque de prendre un sacré coup de jus !" />
               </div>
 
             </div>
             <h5 className="text_VP">
-              Ensemble ils motiveront les troupes
+            Un bon équilibre des forces pour un maximum d'efficacité et d'organisation
             </h5>
           </div>
 
@@ -106,14 +113,16 @@ export default class Poles extends React.Component {
               <div className="element_grille_50">
                 <Block_Pole nbr="3" title="Soirée" imgone={resposoiree} imgtwo={soiree1} imgthree={soiree2}
                   textname="Guillaume, Louis et Moncef"
-                  text="blabla" />
+                  text="Le pôle Soirée c'est monter des dossiers en laissant parler sa créativité pour ambiancer 
+                  des gens avec 3g dans le sang dans le seul but que le lendemain quand on te croisera 
+                  en gueule de bois tu nous dise que c'était stylé. Au fait on fait aussi pleurer le trésorier." />
               </div>
 
               <div className="element_grille_50">
                 <Block_Pole nbr="3" title="Pougnes" imgone={pougneimtbs} imgtwo={pougnetsp} imgthree={pougnebachelor}
                   textname="Ludivine, Gaétan et Sarah"
-                  text="Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez nous les pougnes on te propose une petite aide, un petit plus, qui t'aidera à passer ton année.
-                  Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue le club B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
+                  text="Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez les pougnes, on te propose une petite aide, un petit plus, qui t'aidera à valider ton année.
+                  Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue les clubs B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
                   Pougner c'est gagner !" />
               </div>
 
@@ -125,10 +134,9 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Numérique" imgone={numrespo} imgtwo={num}
                   textname="Thomas et Joshua"
-                  text="On préfère faire de jeux
-                mais on va qd même faire le site et l'appli, don't worry.
-                Par contre ne croyez pas qu'on va staffer votre campagne numérique,
-                même Guillaume peut le faire ;)" />
+                  text="On préfère faire de jeux. mais on va qd même faire le site et l'appli, don't worry. 
+                  Le seul souci c'est que comme on travaille derrière nos ordis, on ne nous voit pas bosser 
+                  alors tout le monde nous demande des trucs !" />
               </div>
 
               <div className="element_grille_33">
@@ -153,17 +161,20 @@ export default class Poles extends React.Component {
               <div className="element_grille_50">
                 <Block_Pole nbr="1" title="Prévention" imgone={prev}
                   textname="Eloi"
-                  text="La prévention c'est le couteau suisse de ta soirée. T'as besoin d'alcool? on en a.
-                  Tu veux te rincer la bouche parce que tu t'apprêtes à pécho, ou parce que t'as soif? on en a.
-                  Tu veux prendre une banane pour tanker car t'as CF demain? on en a.
-                  Tu veux parler à qqun pour une quelconque raison? on en a. Pardon, on est là. Rien que pour toi ❤️
-                  Bonne soirée" />
+                  text="La prévention, c'est le couteau suisse de ta soirée. T'as besoin d'alcool ? On en a ! 
+                  Tu veux te rincer la bouche parce que tu t'apprêtes à pécho, ou parce que t'as soif ? On est là ! 
+                  Tu veux prendre une banane pour tanker car t'as CF demain ? On en a ! 
+                  Tu veux parler à quelqu'un pour une quelconque raison ? On est là ! 
+                  Enfin, plus ou moins... Dans tous les cas, rien que pour toi, nous sommes là pour 
+                  te faire vivre tes meilleures soirées !" />
               </div>
 
               <div className="element_grille_50">
                 <Block_Pole nbr="2" title="Rits" imgone={resporits} imgtwo={rits}
                   textname="Ella et Aya"
-                  text="manger" />
+                  text="Comme le dit si bien le dicton <<bonne mangeoire fait bonne fête>> 
+                  c'est la bonne cuisine qui fait la bonne fête ! Vous ne serez jamais mieux servis que par nous, 
+                  le pôle RITZ, puisque nous vivons d'amour, d'eau fraîche, d'entraide, et de bons petits plats !" />
               </div>
 
             </div>
@@ -174,24 +185,29 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="RE" imgone={respore} imgtwo={re}
                   textname="Louri et Belhassen"
-                  text="On préfère faire de jeux
-                mais on va qd même faire le site et l'appli, don't worry.
-                Par contre ne croyez pas qu'on va staffer votre campagne numérique,
-                même Guillaume peut le faire ;)" />
+                  text="Toujours à l’affût d’opportunités, de faire valoir le bien-être et l’avenir des étudiants
+                   auprès des entreprises, le pôle RE fera tout son possible pour régaler le campus tout en 
+                   répondant aux attentes de ses partenaires du monde de l’entreprise. De l’organisation d’événements 
+                   ludique à buts professionnels à la proposition d’offres alléchantes, nous entendons mettre en 
+                   relation les étudiants du campus et les entreprises de la manière la plus adaptée possible. 
+                   Prêts à démarcher jusqu’au bout du monde, on arrive pour vous offrir le meilleur de nos poignées de mains." />
               </div>
 
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Secrétariat" imgone={resposecret} imgtwo={secret}
                   textname="Kenza et Pierre"
-                  text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde, 
-                  on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité. 
-                  On fait des créneaux aussi. " />
+                  text="Le secrétariat, le pôle de l'ombre ! En tant que secrétaires, 
+                  nous participons très activement à la vie de la liste, en réalisant les compte-rendus de réunion, 
+                  en s'occupant des documents administratifs, des ressources en ligne et nous aidons tous les autres pôles !" />
               </div>
 
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Trésorerie" imgone={respotres} imgtwo={tres}
                   textname="Fatima et Jahed"
-                  text="Slt, c'est Elie et Yann, on partira ensemble un jour challah" />
+                  text="Le pôle trésorerie s'occupe des fonds afin de permettre à tous les pôles de mener 
+                  à bien leurs projets. Nous nous occupons des entrées et des sorties d'argent tout ça pour
+                   que tu puisses faire la mala à nos stands ou encore (et surtout) à nos soirées. 
+                   Bref, notre seul objectif, c'est de brasser et t'as capté qu'on te parle pas de natation." />
               </div>
 
             </div>
@@ -201,9 +217,9 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="2" title="Communication" imgone={respocom} imgtwo={com}
                   textname="Léo et Quentin"
-                  text="Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, 
-                  la com utilise toutes ces appli pour créer et publier ses meilleures affiches et vidéos !
-                  Que ça soit fougère ou écailles de serpent, on utilise nos meilleures fonds pour impressionner l’INT" />
+                  text="Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, la com' utilise toutes
+                   ces applications pour créer et publier ses meilleures affiches et vidéos ! 
+                   Que ça soit fougères ou écailles de serpent, on utilise nos meilleures fonds pour impressionner l’INT" />
               </div>
               <div className="element_grille_33">
                 <Block_Pole nbr="1" title="SWEI" imgone={swei}
@@ -216,8 +232,10 @@ export default class Poles extends React.Component {
               <div className="element_grille_33">
                 <Block_Pole nbr="1" title="T&MA" imgone={tema}
                   textname="Léonard"
-                  text="Respo T&MA ? Le pôle le plus important. Dire que c'est un pôle pipo est une insulte. Cuisine,Tenture et Moquetter, tout le monde compte sur toi pour faire une tonne d'activités !!
-                  Le seul problème, c'est que aucun de ca n'a de rapport avec les alumnis, et pour ça, ça me donne envie de pleurer..." />
+                  text="Respo T&MA ? Le pôle le plus important. Dire que c'est un pôle pipo est une insulte. 
+                  Cuisiner, tenturer et moquetter, tout le monde compte sur toi pour faire une tonne d'activités !
+                  Le seul problème, c'est qu'aucune de ces activités n'a de rapport avec les alumnis, 
+                  et c'est pour cela qu'on est ici toute la nuit !" />
               </div>
             </div>
             <div className="lign">
@@ -225,16 +243,18 @@ export default class Poles extends React.Component {
               <div className="element_grille_50">
                 <Block_Pole nbr="1" title="Stand" imgone={dd}
                   textname="Mathis"
-                  text="blabla" />
+                  text="Qui suis-je ? Tu dois me faire avec passion. Je remplis le ventre de morfales 
+                  tout en les divertissant de façons toujours plus originales. Si je ne propose pas de prix à gagner,
+                   personne ne vient me voir. J'existe avant et pendant la campagne, après je ne suis plus. 
+                   Je suis, je suis, je suis ? Le stand ! Et voici un bidon de Monaga pour toi !" />
               </div>
 
               <div className="element_grille_50">
                 <Block_Pole nbr="1" title="DD" imgone={dd}
                   textname="Denzel"
-                  text="On préfère faire de jeux
-                mais on va qd même faire le site et l'appli, don't worry.
-                Par contre ne croyez pas qu'on va staffer votre campagne numérique,
-                même Guillaume peut le faire ;)" />
+                  text="Pôle DD, ici tout est bio, tout est fraîs ! Je suis là pour rajouter un peu (beaucoup) 
+                  de verdure à l'INT. Expert en gazon et en plantation de tomates, embellir ce campus : 
+                  telle est ma mission ! Ah oui, et sauver la planète aussi, accessoirement." />
               </div>
 
             </div>

@@ -8,6 +8,7 @@ export default function Block_Pres(props) {
         <h3 className="title_pres">{props.title} </h3>
         <h5 className="textname">{props.textname} </h5>
         <h5 className="text_pres">{props.text}</h5>
+        <h5 className="text_pres">{props.text2}</h5>
       </div>
       <img src={props.img} className="img_pres"
         alt={props.title} title={props.title} />

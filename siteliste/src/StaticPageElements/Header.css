@@ -11,8 +11,9 @@
   bottom: 0;
   align-items: center;
   background: url(../WidgetsAndElements/photos/Fond_Orga.jpg);
+  /* background: url(../photos/background_pierre.png); */
   box-sizing: border-box;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
