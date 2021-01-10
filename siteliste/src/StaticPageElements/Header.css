@@ -42,3 +42,9 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+@media(max-width : 500px) {
+  .header {
+    display: none;
+  }
+}

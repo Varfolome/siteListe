@@ -8,6 +8,8 @@ import React from 'react';
 import './MenuList.css';
 import ControlPages from './ControlPages';
 import snake_scroll from './snake-scroll.png';
+import openMenu from '../../WidgetsAndElements/photos/white-menu-icon.png';
+import closeMenu from '../../WidgetsAndElements/photos/close-menu-icon.png'
 
 
 export default class MenuList extends React.Component {
@@ -15,7 +17,7 @@ export default class MenuList extends React.Component {
   constructor(props) {
     super(props);
     //state.isOpen controls mobile menu and state.pageToShow is the name of the page to be rendered.
-    this.state = {isOpen: false, pageToShow: "Naga"};
+    this.state = {isOpen: false, pageToShow: "Naga", menuControl : openMenu};
     this.Open = this.Open.bind(this);
   }
 
@@ -60,7 +62,8 @@ export default class MenuList extends React.Component {
 
  Open() {
     this.setState(state => ({
-      isOpen: !state.isOpen
+      isOpen: !state.isOpen,
+      menuControl: state.menuControl === openMenu ? closeMenu : openMenu
     }));
   }
 
@@ -113,7 +116,7 @@ export default class MenuList extends React.Component {
       <div className="menu">
       <div className="menu-scroll-control">
         <div className="menu-control">
-        <div onClick={this.Open} className="burger" style={burgerStyle}></div>
+        <div onClick={this.Open} className="burgerWrapper" style={burgerStyle}><img src={this.state.menuControl} className="burger"/></div>
         <ul className="menu-list" style={ulStyle}>
           <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
