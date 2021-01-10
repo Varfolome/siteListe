@@ -6,7 +6,18 @@
 .conteneur {
 	display: flex;
 	box-sizing: border-box;
-	padding-top: 150px;
+	padding-top: 5%;
+}
+
+.titre {
+	text-align: center;
+	padding-top:2%;
+    color: white;
+}
+
+
+.card-img-top {
+	border-radius: 10px;
 }
 
 h5 {
@@ -29,4 +40,5 @@ p {
 .card {
 	margin: 1%;
 	box-sizing: border-box;
+	border-radius: 10px;
 }
