@@ -14,7 +14,8 @@ import resposoiree from '../photos/img_mdp/soireerespo.jpg'
 import soiree1 from '../photos/img_mdp/soiree1.jpg'
 import soiree2 from '../photos/img_mdp/soiree2.jpg'
 import pougnetsp from '../photos/img_mdp/pougnetsp.jpg'
-import pougnebachelorandimtbs from '../photos/img_mdp/pougnebachelorandimtbs.jpg'
+import pougneimtbs from '../photos/img_mdp/pougneimtbs.jpg'
+import pougnebachelor from '../photos/img_mdp/pougnebachelor.jpg'
 
 import num from '../photos/img_mdp/num.jpg'
 import numrespo from '../photos/img_mdp/numrespo.jpg'
@@ -24,6 +25,7 @@ import voyage from '../photos/img_mdp/voyage.jpg'
 import respovoyage from '../photos/img_mdp/voyagerespo.jpg'
 
 import dd from '../photos/img_mdp/dd.jpg'
+import stand from '../photos/img_mdp/stand.jpg'
 import prev from '../photos/img_mdp/prevrespo.jpg'
 import resporits from '../photos/img_mdp/ritsrespo.jpg'
 import rits from '../photos/img_mdp/rits.jpg'
@@ -57,7 +59,7 @@ export default class Poles extends React.Component {
 
     return (
       <div className="poles">
-        <h1 className="page_title" >Voici le mot des pôles </h1>
+        <h1 className="page_title" > Quelques présentations... </h1>
         <div>
           <Block_Pres title="Présidence" img={pres}
             textname="Ulysse Aubin"
@@ -68,7 +70,7 @@ export default class Poles extends React.Component {
             Il opère avec un ratio énergie/sommeil imbattable." />
 
           <div className="block_VP">
-            <h3 className="motdupole">Vice-Présidence</h3>
+            <h3 className="title_vp">Vice-Présidence</h3>
 
             <div className="lign">
 
@@ -114,11 +116,11 @@ export default class Poles extends React.Component {
                   textname="Guillaume, Louis et Moncef"
                   text="Le pôle Soirée c'est monter des dossiers en laissant parler sa créativité pour ambiancer
                   des gens avec 3g dans le sang dans le seul but que le lendemain quand on te croisera
-                  en gueule de bois tu nous dise que c'était stylé. Au fait on fait aussi pleurer le trésorier." />
+                  en gueule de bois tu nous dise que <<c'était stylé>>. Au fait on fait aussi pleurer le trésorier." />
               </div>
 
               <div className="element_grille_50">
-                <Block_Pole nbr="3" title="Pougnes" imgone={pougnebachelorandimtbs} imgtwo={pougnetsp} imgthree={pougnebachelorandimtbs}
+                <Block_Pole nbr="3" title="Pougnes" imgone={pougneimtbs} imgtwo={pougnetsp} imgthree={pougnebachelor}
                   textname="Ludivine, Gaétan et Sarah"
                   text="Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez les pougnes, on te propose une petite aide, un petit plus, qui t'aidera à valider ton année.
                   Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue les clubs B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
@@ -214,7 +216,7 @@ export default class Poles extends React.Component {
             {/* Com + Swei + Tema */}
             <div className="lign">
               <div className="element_grille_33">
-                <Block_Pole nbr="2" title="Communication" imgone={respocom} imgtwo={com}
+                <Block_Pole nbr="2" title="Com" imgone={respocom} imgtwo={com}
                   textname="Léo et Quentin"
                   text="Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, la com' utilise toutes
                    ces applications pour créer et publier ses meilleures affiches et vidéos !
@@ -240,8 +242,8 @@ export default class Poles extends React.Component {
             <div className="lign">
 
               <div className="element_grille_50">
-                <Block_Pole nbr="1" title="Stand" imgone={dd}
-                  textname="Mathis"
+                <Block_Pole nbr="1" title="Stand" imgone={stand}
+                  textname="Matthis"
                   text="Qui suis-je ? Tu dois me faire avec passion. Je remplis le ventre de morfales
                   tout en les divertissant de façons toujours plus originales. Si je ne propose pas de prix à gagner,
                    personne ne vient me voir. J'existe avant et pendant la campagne, après je ne suis plus.

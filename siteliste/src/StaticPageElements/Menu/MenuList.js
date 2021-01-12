@@ -129,7 +129,6 @@ export default class MenuList extends React.Component {
           <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>{partenaires}</li>
         </ul>
         </div>
-        <div className="snake-scroller"></div>
         </div>
         <ControlPages pageToShow={this.state.pageToShow} />
       </div>

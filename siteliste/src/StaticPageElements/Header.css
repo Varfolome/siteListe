@@ -10,7 +10,8 @@
   top: 0;
   bottom: 0;
   align-items: center;
-  background: url(../WidgetsAndElements/photos/Fond_PP.png);
+  background: url(../WidgetsAndElements/photos/Fond_PP_Fondu.png);
+  /* background:rgb(153, 148, 148); */
   box-sizing: border-box;
   background-size: auto;
   background-repeat: no-repeat;

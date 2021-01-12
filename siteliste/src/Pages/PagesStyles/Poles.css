@@ -1,6 +1,12 @@
+@font-face{
+    font-family:akbaal;
+    src: url(../../fonts/akbaal.ttf);
+}
+
 .page_title{
-    padding-top:2%;
-    color: white;
+    padding-top: 1em;
+    color: black;
+    font-family: akbaal;
 }
 
 .poles {

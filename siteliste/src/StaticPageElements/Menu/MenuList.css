@@ -14,11 +14,13 @@
   flex-flow: row nowrap;
   color: white;
   justify-content: center;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(41, 41, 43) 50%,  rgb(0, 0, 0) 100%);
 }
 
 .menu {
 
   width: 100%;
+  border-bottom: 3px solid darkgreen ;
 }
 
 
@@ -49,6 +51,8 @@
   overflow: hidden;
   display: flex;
   flex-flow: column;
+  border-bottom: 5px solid darkgreen ;
+  box-shadow: 0px 0px 50px black;
 }
 
 .snake-scroller {
