@@ -9,7 +9,8 @@ import './MenuList.css';
 import ControlPages from './ControlPages';
 import snake_scroll from './snake-scroll.png';
 import openMenu from '../../WidgetsAndElements/photos/white-menu-icon.png';
-import closeMenu from '../../WidgetsAndElements/photos/close-menu-icon.png'
+import closeMenu from '../../WidgetsAndElements/photos/close-menu-icon.png';
+import nagaMenu from '../../WidgetsAndElements/photos/nagaName.png';
 
 
 export default class MenuList extends React.Component {
@@ -46,15 +47,17 @@ export default class MenuList extends React.Component {
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
 
-    if(scrolled >= headerHeight) {
-      menuScrollControl.style.top = 0 + "px";
-      menuScrollControl.style.position = "fixed";
+    if (this.state.pageToShow !== "Naga") {
+      if(scrolled >= headerHeight) {
+        menuScrollControl.style.top = 0 + "px";
+        menuScrollControl.style.position = "fixed";
 
-    }
-    else {
-      menuScrollControl.style.top = "";
-      menuScrollControl.style.position = "";
-    }
+      }
+      else {
+        menuScrollControl.style.top = "";
+        menuScrollControl.style.position = "";
+      }
+  }
  };
 
 
@@ -106,7 +109,7 @@ export default class MenuList extends React.Component {
 
     // end-of-bloock________________________________________
 
-    let mdp = this.props.lang === "french" ? "Mots des poles" : "Word of group";
+    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Word of group";
     let pougnes = this.props.lang === "french" ? "Pougnes" : "I dont know";
     let partenaires = this.props.lang === "french" ? "Partenaires" : "Friends";
 
@@ -118,7 +121,7 @@ export default class MenuList extends React.Component {
         <div className="menu-control">
         <div onClick={this.Open} className="burgerWrapper" style={burgerStyle}><img src={this.state.menuControl} className="burger"/></div>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}><img src={nagaMenu} className="naga-menu" /></li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>{pougnes}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>

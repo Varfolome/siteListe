@@ -41,6 +41,13 @@ iframe {
 	margin: 0 auto;
 }
 
+.carousel {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
 @media (max-width: 770px) {
 	iframe {
 		width: 380px;
