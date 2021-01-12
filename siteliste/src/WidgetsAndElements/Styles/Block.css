@@ -6,7 +6,7 @@
 .block_pres {
     margin:2% 14%;
     border-radius: 10px;
-    background-color: rgb(158, 199, 135); 
+    background-color: rgb(158, 199, 135);
     display: flex;
     box-shadow: 5px 5px 4px black;
     border: 2px solid black;
@@ -83,15 +83,15 @@
     border-radius: 10px;
 }
 
-.block{    
-    background-color: rgb(158, 199, 135); 
+.block{
+    background-color: rgb(158, 199, 135);
 }
 
 @media screen and (min-width: 800px){
     .block{
        border-radius: 10px;
-       border: 2px solid black;   
-       height:100%;       
+       border: 2px solid black;
+       height:100%;
        box-shadow: 5px 5px 4px black;
     }
 
@@ -104,7 +104,7 @@
        /* background: black; */
        flex-wrap:wrap;
        /* border: 5px solid purple; */
-    }   
+    }
 }
 .element_grille_25 {
     width:22%;
@@ -133,21 +133,21 @@
 }
 
 .one_img_pole {
-    width: 100%;    
+    width: 100%;
     max-width:140px;
     justify-content: center;
     border-radius: 10px;
     /* border: 2px solid black; */
 }
 .two_img_pole {
-    width: 50%;    
+    width: 50%;
     max-width:140px;
     justify-content: center;
     /* border-radius: 10px; */
     /* border: 2px solid black; */
 }
 .three_img_pole {
-    width: 33.3333%;    
+    width: 33.3333%;
     max-width:140px;
     justify-content: center;
     /* border-radius: 10px; */
@@ -191,13 +191,14 @@
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 790px){
     .block_pres {
-        margin:5% 14%;
+        width : 100%;
+        margin: 0 0;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .title_text_pres {
         width: 100%;
         justify-content: center;
@@ -212,9 +213,9 @@
     }
 
     .block{
-        border-radius: 10px;        
+        border-radius: 10px;
         border: 0.5px solid black;
-        background-color: rgb(158, 199, 135);  
+        background-color: rgb(158, 199, 135);
         margin:2% 0%;
         width:100%;
         justify-content: center;
@@ -250,7 +251,7 @@
     .element_grille_50{
         width:100%
     }
-    
+
     .element_grille_60 {
         width:100%;
     }
