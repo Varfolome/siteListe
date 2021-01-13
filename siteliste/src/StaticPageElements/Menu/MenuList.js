@@ -46,7 +46,7 @@ export default class MenuList extends React.Component {
     let w = (scrolled / scrollH) * 100 + "%";
     document.documentElement.style.setProperty("--snake-scroll-width", w);
 
-    if (this.state.pageToShow !== "Naga") {
+    if (this.state.pageToShow !== "Poles" || window.innerWidth > 790) {
       if(scrolled >= headerHeight) {
         menuScrollControl.style.top = 0 + "px";
         menuScrollControl.style.position = "fixed";
