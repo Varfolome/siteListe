@@ -56,6 +56,9 @@ export default class MenuList extends React.Component {
         menuScrollControl.style.top = "";
         menuScrollControl.style.position = "";
       }
+  } else {
+    menuScrollControl.style.top = "";
+    menuScrollControl.style.position = "";
   }
  };
 
