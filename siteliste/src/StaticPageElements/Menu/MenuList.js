@@ -10,7 +10,6 @@ import ControlPages from './ControlPages';
 import snake_scroll from './snake-scroll.png';
 import openMenu from '../../WidgetsAndElements/photos/white-menu-icon.png';
 import closeMenu from '../../WidgetsAndElements/photos/close-menu-icon.png';
-import nagaMenu from '../../WidgetsAndElements/photos/nagaName.png';
 
 
 export default class MenuList extends React.Component {
@@ -121,7 +120,7 @@ export default class MenuList extends React.Component {
         <div className="menu-control">
         <div onClick={this.Open} className="burgerWrapper" style={burgerStyle}><img src={this.state.menuControl} className="burger"/></div>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}><img src={nagaMenu} className="naga-menu" /></li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>Naga</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>{pougnes}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>
