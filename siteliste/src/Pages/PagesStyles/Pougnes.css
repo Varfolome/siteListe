@@ -6,7 +6,6 @@
 .conteneur {
 	display: flex;
 	box-sizing: border-box;
-	padding-top: 5%;
 }
 
 .titre {
@@ -30,15 +29,28 @@ p {
 	font-family: Cabin-Regular;
 }
 
+.card {
+	margin: 1%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 33%;
+	box-shadow: 5px 5px 4px black;
+	position: static;
+}
+
 @media (max-width: 770px) {
   .conteneur {
   	display: flex;
   	flex-direction: column;
   }
-}
 
-.card {
-	margin: 1%;
+  .card {
+  	margin-top: 2%;
+  	margin-bottom: 2%;
 	box-sizing: border-box;
 	border-radius: 10px;
+	width: 95%;
+	box-shadow: 5px 5px 4px black;
+  }
 }
+

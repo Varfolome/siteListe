@@ -1,0 +1,21 @@
+.partenaires-wrapper {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 60px;
+}
+
+.partenaires {
+	display: flex;
+	justify-content: space-around;
+}
+
+.plaquetteRE {
+	text-align: center;
+}
+
+@media (max-width: 770px) {
+  .partenaires {
+  	display: flex;
+  	flex-direction: column;
+  }
+}
