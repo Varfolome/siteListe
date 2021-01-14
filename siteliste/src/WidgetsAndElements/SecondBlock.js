@@ -1,5 +1,4 @@
 import './Styles/Poles.css';
-import React from 'react';
 import Block_Pole from './Block_Pole';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
@@ -32,23 +31,49 @@ export default function SecondBlock(props) {
     Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue les clubs B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
     Pougner c'est gagner !" />;
 
-  let secondBlock = <div className="lign">
+  let blockNum =   <Block_Pole nbr="2" title="Numérique" imgone={numrespo} imgtwo={num}
+      textname="Thomas et Joshua"
+      text="On préfère faire de jeux. mais on va qd même faire le site et l'appli, don't worry.
+      Le seul souci c'est que comme on travaille derrière nos ordis, on ne nous voit pas bosser
+      alors tout le monde nous demande des trucs !" />;
+  let blockSecu =   <Block_Pole nbr="2" title="Séculog" imgone={resposl} imgtwo={sl}
+      textname="Jérémy et Luka"
+      text="Nous agissons dans l'ombre afin de protéger le monde, et par le monde,
+      on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité.
+      On fait des créneaux aussi. " />;
+  let blockVoyage = <Block_Pole nbr="2" title="Voyage" imgone={respovoyage} imgtwo={voyage}
+    textname="Elie et Yann"
+    text="On partira ensemble un jour challah" />;
+
+  let secondBlock = <div className="grille">
+  <div className="lign">
 
     <div className="element_grille_50">
-      <Block_Pole nbr="3" title="Soirée" imgone={resposoiree} imgtwo={soiree1} imgthree={soiree2}
-        textname="Guillaume, Louis et Moncef"
-        text="Le pôle Soirée c'est monter des dossiers en laissant parler sa créativité pour ambiancer
-        des gens avec 3g dans le sang dans le seul but que le lendemain quand on te croisera
-        en gueule de bois tu nous dise que <<c'était stylé>>. Au fait on fait aussi pleurer le trésorier." />
+      {blockSoiree}
     </div>
 
     <div className="element_grille_50">
-      <Block_Pole nbr="3" title="Pougnes" imgone={pougneimtbs} imgtwo={pougnetsp} imgthree={pougnebachelor}
-        textname="Ludivine, Gaétan et Sarah"
-        text="Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez les pougnes, on te propose une petite aide, un petit plus, qui t'aidera à valider ton année.
-        Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue les clubs B. Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions.
-        Pougner c'est gagner !" />
+      {blockPougnes}
     </div>
+
+  </div>
+
+  <div className="lign">
+
+    <div className="element_grille_33">
+    {blockNum}
+    </div>
+
+    <div className="element_grille_33">
+    {blockSecu}
+    </div>
+
+    <div className="element_grille_33">
+    {blockVoyage}
+    </div>
+
+  </div>
+
 
   </div>;
 
@@ -61,8 +86,9 @@ export default function SecondBlock(props) {
   >
     <SwiperSlide>{blockSoiree}</SwiperSlide>
     <SwiperSlide>{blockPougnes}</SwiperSlide>
-    <SwiperSlide>Blb</SwiperSlide>
-    <SwiperSlide>Wtf</SwiperSlide>
+    <SwiperSlide>{blockNum}</SwiperSlide>
+    <SwiperSlide>{blockSecu}</SwiperSlide>
+    <SwiperSlide>{blockVoyage}</SwiperSlide>
   </Swiper>
   </div>
   }

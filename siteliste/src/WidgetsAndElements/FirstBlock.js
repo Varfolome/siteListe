@@ -1,5 +1,4 @@
 import './Styles/Poles.css';
-import React from 'react';
 import Block_Pres from './Block_Pres';
 import Block_Pole from './Block_Pole';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -61,7 +60,9 @@ export default function FirstBlock(props) {
           </div>;
 
     if(window.innerWidth <= 790) {
-        firstBlock = <div className="mobile-swiper"><Swiper
+        firstBlock = <div className="mobile-swiper">
+        <h2 className="swipe-attention">Swipez</h2>
+        <Swiper
       spaceBetween={50}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}

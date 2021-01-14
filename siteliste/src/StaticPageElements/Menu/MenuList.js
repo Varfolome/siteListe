@@ -40,11 +40,8 @@ export default class MenuList extends React.Component {
 
   handleScroll = () => {
     let scrolled = document.documentElement.scrollTop;
-    let scrollH = document.documentElement.scrollHeight - window.innerHeight;
     const menuScrollControl = document.querySelector('.menu-scroll-control');
     let headerHeight = document.querySelector('.header').clientHeight;
-    let w = (scrolled / scrollH) * 100 + "%";
-    document.documentElement.style.setProperty("--snake-scroll-width", w);
 
     if (this.state.pageToShow !== "Poles" || window.innerWidth > 790) {
       if(scrolled >= headerHeight) {
