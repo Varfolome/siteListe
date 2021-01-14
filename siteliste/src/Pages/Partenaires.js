@@ -16,17 +16,19 @@ export default class Partenaires extends React.Component {
     	<h1 className="titre">Nos partenaires</h1>
       <div className="partenaires">
       <div className="card">
-  		<img className="card-img-top" src={afriknfusion} alt="Afriknfusion" />
+  		<a href="https://www.afriknfusion.fr/"><img className="card-img-top" src={afriknfusion} alt="Afriknfusion" /></a>
   		<div className="card-body">
     		<h5 className="card-title">Afrik'n'fusion</h5>
-    		<p className="card-text">Situé dans la galerie marchande du centre commercial Evry 2, Afrik'n'fusion vous fera découvrir la cuisine africaine et tout sa richesse</p>
+    		<p className="card-text">Situé dans la galerie marchande du centre commercial Evry 2, Afrik'n'fusion vous fera découvrir la cuisine africaine et tout sa richesse <br />
+    		<a href="https://www.afriknfusion.fr/">Leur site internet</a></p>
   		</div>
 		</div>
 		<div className="card">
-  		<img className="card-img-top" src={sucresale} alt="Sucré Salé" />
+  		<a href="https://www.facebook.com/sucresaleevry/"><img className="card-img-top" src={sucresale} alt="Sucré Salé" /></a>
   		<div className="card-body">
     		<h5 className="card-title">Sucré salé</h5>
-    		<p className="card-text">Sucré Salé est une crêperie située à Evry proposant une multitude de crêpes salées et sucrées pour tous les goûts</p>
+    		<p className="card-text">Sucré Salé est une crêperie située à Evry proposant une multitude de crêpes salées et sucrées pour tous les goûts<br />
+    		<a href="https://www.facebook.com/sucresaleevry/">Leur page facebook</a></p>
   		</div>
 		</div>
       </div>
