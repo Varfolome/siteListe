@@ -9,3 +9,15 @@
   padding-top: 5%;
   box-sizing: border-box;
 }
+
+.specific-purposes-list {
+  list-style: none;
+  justify-content: center;
+}
+
+.specific-purposes {
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
