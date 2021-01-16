@@ -17,7 +17,7 @@ export default class Pougnes extends React.Component {
       	<div className="conteneur">
 	        <div className="card">
 	  			<a href="https://drive.google.com/drive/folders/1-6rFmBaUlKVMvaJBF1d4uT3szFX9n6km?usp=sharing">
-          <img src={imtbs} className="card-img-top" alt="Ludivine pougne IMT BS" />
+          <img src={imtbs} className="card-img-top-pougnes" alt="Ludivine pougne IMT BS" />
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes IMT BS</h5>
@@ -45,7 +45,7 @@ export default class Pougnes extends React.Component {
 			</div>
 			<div className="card">
           <a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing">
-	  			<img src={tsp} className="card-img-top" alt="Gaëtan pougne TSP" />
+	  			<img src={tsp} className="card-img-top-pougnes" alt="Gaëtan pougne TSP" />
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes TSP</h5>
@@ -78,7 +78,7 @@ export default class Pougnes extends React.Component {
 			</div>
 			<div className="card">
           <a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing">
-	  			<img src={bachelor} className="card-img-top" alt="Sarah pougne Bachelor" />
+	  			<img src={bachelor} className="card-img-top-pougnes" alt="Sarah pougne Bachelor" />
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes Bachelor</h5>
