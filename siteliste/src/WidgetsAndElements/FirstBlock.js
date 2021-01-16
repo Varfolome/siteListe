@@ -12,13 +12,19 @@ import vpbachelor from '../photos/img_mdp/vpbachelor.jpg'
 
 
 export default function FirstBlock(props) {
+
+  let textPres = "Afin que le navire arrive à destination, Ulysse peut compter sur ses VP pour l’aider à guider le reste de l’équipage à travers la mer déchainée qu’est l’INT ! Mais avec leurs idées toutes plus folles les unes que les autres, on se demande parfois qui devrait être attaché au mât…";
+  let textPres2 = "Ulysse, le président : rationnel, pragmatique, et efficace. Il opère avec un ratio énergie/sommeilimbattable.";
+
+  if(props.lang === "english") {
+    textPres = "In order for the ship to reach its destination, Ulysse can count on his VPs to help him guide the rest of the crew through the raging sea that is INT! But with their ideas, each one crazier than the other, one sometimes wonders who should be attached to the mast..";
+    textPres2 = "Ulysse, the president : rational, pragmatic and efficient. He runs on a an unmatched energy to sleep ratio.";
+  }
+
   let blockPres = <Block_Pres title="Présidence" img={pres}
     textname="Ulysse Aubin"
-    text="Afin que le navire arrive à destination, Ulysse peut compter sur ses VP pour l’aider à guider
-    le reste de l’équipage à travers la mer déchainée qu’est l’INT ! Mais avec leurs idées toutes plus folles
-    les unes que les autres, on se demande parfois qui devrait être attaché au mât…"
-    text2="Ulysse, le président : rationnel, pragmatique, et efficace.
-    Il opère avec un ratio énergie/sommeil imbattable." />;
+    text={textPres}
+    text2={textPres2} />;
   let blockVP1 = <Block_Pole nbr="1" title="VP IMT-BS" imgone={vpimtbs}
     textname="Grégory Le Moal"
     text="Aussi grand que drôle, derrière son manque de tact

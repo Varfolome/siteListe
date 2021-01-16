@@ -21,10 +21,10 @@ export default class Poles extends React.Component {
 
     return (
       <div className="poles">
-          <FirstBlock />
-          <SecondBlock />
-          <ThirdBlock />
-          <ForthBlock />
+          <FirstBlock lang={this.props.lang}/>
+          <SecondBlock lang={this.props.lang}/>
+          <ThirdBlock lang={this.props.lang}/>
+          <ForthBlock lang={this.props.lang}/>
       </div>
 
 

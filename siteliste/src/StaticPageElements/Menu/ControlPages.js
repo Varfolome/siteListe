@@ -28,7 +28,7 @@ export default function ControlPages(props) {
         page = <Partenaires />;
         break;
       case "Poles":
-        page = <Poles />;
+        page = <Poles lang={props.lang} />;
         break;
       case "Pougnes":
         page = <Pougnes />;

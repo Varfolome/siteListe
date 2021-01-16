@@ -129,7 +129,7 @@ export default class MenuList extends React.Component {
         </ul>
         </div>
         </div>
-        <ControlPages pageToShow={this.state.pageToShow} />
+        <ControlPages pageToShow={this.state.pageToShow} lang={this.props.lang}/>
       </div>
     );
     }
