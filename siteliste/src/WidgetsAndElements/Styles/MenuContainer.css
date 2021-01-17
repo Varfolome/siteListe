@@ -8,6 +8,7 @@
   text-align: center;
   justify-content: center;
   margin: 3% 0;
+  padding: 0 0;
 }
 
 .menu-container {
@@ -16,6 +17,7 @@
   margin: 0 auto;
   border: 2px solid gray;
   display: block;
+  padding: 0 0;
 }
 
 .menu-container-control-wrapper {
@@ -69,8 +71,5 @@
   max-height: 300px;
   padding: 0 0;
   margin: 0 0;
-}
-
-.menu-container-inner {
   background: black;
 }
