@@ -60,6 +60,7 @@
 
 .menu-container-control-element-wrapper {
   width: 100%;
+  min-width: 20%;
   box-sizing: border-box;
   height: 60px;
 }

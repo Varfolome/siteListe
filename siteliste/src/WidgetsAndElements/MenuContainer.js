@@ -5,7 +5,7 @@ export default class MenuContainer extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {currentRenderingContentIndex: 0};
+    this.state = {currentRenderingContentIndex: props.start};
   }
 
   showNewSection(newSectionNumber) {
@@ -21,8 +21,8 @@ export default class MenuContainer extends React.Component {
   }
 
   menuControlItems = this.props.control.split(" ");
-  i = 0;
-  menuControlItemsJSX = this.menuControlItems.map((controlItem) => <div key={controlItem} className="menu-container-control-element-wrapper rounded"><li id={this.i} className="menu-container-control-element" style={this.i === 0 ? {background: "black"} : {background: "gray"}} onClick={this.showNewSection.bind(this,this.i++)}>{controlItem}</li></div>);
+  i = this.props.start;
+  menuControlItemsJSX = this.menuControlItems.map((controlItem) => <div key={controlItem} className="menu-container-control-element-wrapper rounded"><li id={this.i} className="menu-container-control-element" style={this.i === this.props.start ? {background: "black"} : {background: "gray"}} onClick={this.showNewSection.bind(this,this.i++)}>{controlItem}</li></div>);
 
 
   render() {
@@ -37,7 +37,7 @@ export default class MenuContainer extends React.Component {
               </ul>
             </div>
             <div className="menu-container-inner">
-              {this.props.content[this.state.currentRenderingContentIndex]}
+              {this.props.content[this.state.currentRenderingContentIndex - this.props.start]}
             </div>
           </div>
         </div>

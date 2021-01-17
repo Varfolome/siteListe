@@ -34,7 +34,7 @@ export default function ControlPages(props) {
         page = <Pougnes />;
         break;
       case "Programme":
-        page = <Programme />;
+        page = <Programme lang={props.lang}/>;
         break;
       default:
         page = <Naga />;
