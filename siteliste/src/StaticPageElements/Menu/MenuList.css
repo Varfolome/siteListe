@@ -1,5 +1,4 @@
 :root {
-  --snake-scroll-width : 0%;
   --mobile-height : 100%;
 }
 
@@ -55,12 +54,6 @@
   box-shadow: 0px 0px 50px black;
 }
 
-.snake-scroller {
-  width: var(--snake-scroll-width);
-  height: 5px;
-  background: green;
-  border-radius: 20px;
-}
 
 
 .menu-element {

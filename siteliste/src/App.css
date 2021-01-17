@@ -33,3 +33,27 @@
   height: 30px;
   cursor: pointer;
 }
+
+@media(max-width: 790px) {
+  .lang-menu-wrapper {
+    width: 40%;
+    z-index: 4;
+    justify-content: flex-start;
+    position: fixed;
+  }
+  .lang-menu {
+    justify-content: flex-start;
+  }
+  .lang-menu-element {
+    width: 46px;
+    height: 46px;
+    padding-top: 7px;
+  }
+
+  .lang-logo {
+    border-radius: 50%;
+    width : 42px;
+    height: 42px;
+    cursor: pointer;
+  }
+}

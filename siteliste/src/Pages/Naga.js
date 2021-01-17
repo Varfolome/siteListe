@@ -10,10 +10,15 @@ export default class Naga extends React.Component {
 
 
   render() {
+      let textentree="vous entrez en territoire naga";
+      if (this.props.lang==="english"){
+        textentree="you enter chez naga";
+      }
+
     return(
     	<div className="Page">
       <div className="container">
-        <h1>Vous entrez en territoire Naga...</h1>
+        <h1>{textentree}</h1>
         <p>Bienvenue sur le site de la liste Naga.</p>
       </div>
       <div className="container">
@@ -25,6 +30,8 @@ export default class Naga extends React.Component {
       	<p>Rien de prévu pour le moment... Mais ça ne saurait tarder...</p>
       	</div>
       </div>
+
+    
     );
   }
 }

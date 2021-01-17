@@ -1,8 +1,8 @@
 import React from 'react';
 import './PagesStyles/Partenaires.css';
-import afriknfusion from '../photos/partenaires/afriknfusion.PNG'
-import sucresale from '../photos/partenaires/sucre_sale.webp'
-import plaquette from '../photos/partenaires/slides-RE_1.pdf'
+import afriknfusion from '../photos/partenaires/afriknfusion.PNG';
+import sucresale from '../photos/partenaires/sucre_sale.webp';
+import plaquette from '../photos/partenaires/slides-RE_1.pdf';
 
 export default class Partenaires extends React.Component {
 
@@ -31,7 +31,7 @@ export default class Partenaires extends React.Component {
 		</div>
       </div>
       <p>Intéressés par un partenariat avec nous ? <br />
-      <a className="plaquetteRE" href={plaquette}>Visionnez ici nos slides de présentation</a><br />
+      <a className="plaquetteRE" href={plaquette} target="blank">Visionnez ici nos slides de présentation</a><br />
       Et contactez nous à l'adresse mail suivante : naga-tmsp@gmail.com</p>
       </div>
     );

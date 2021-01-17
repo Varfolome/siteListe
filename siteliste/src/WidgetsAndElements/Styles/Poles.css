@@ -32,6 +32,11 @@
     /* border: 5px solid yellow; */
 }
 
+.swipe-attention {
+  font-size: 4em;
+  color: red;
+}
+
 .mobile-swiper {
   width: 90%;
   box-sizing: border-box;

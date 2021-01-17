@@ -1,7 +1,7 @@
 import React from 'react';
 import './PagesStyles/Pougnes.css';
-import imtbs from '../photos/img_pougnes/IMTBS.png'
-import tsp from '../photos/img_pougnes/TSP.png'
+import imtbs from '../photos/img_pougnes/IMTBS.jpg'
+import tsp from '../photos/img_pougnes/TSP.jpg'
 import bachelor from '../photos/img_pougnes/Bachelor.jpg'
 
 export default class Pougnes extends React.Component {
@@ -21,8 +21,8 @@ export default class Pougnes extends React.Component {
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes IMT BS</h5>
-	    				<p className="card-text">Le travail de pougne est parfois compliqué mais, c'est une mission nécessaire 
-	    				que j'accepte d'accomplir pour vous, étudiant•e•s de l'IMTBS. <br /><br />Vous pourrez ainsi profiter 
+	    				<p className="card-text">Le travail de pougne est parfois compliqué mais, c'est une mission nécessaire
+	    				que j'accepte d'accomplir pour vous, étudiant•e•s de l'IMTBS. <br /><br />Vous pourrez ainsi profiter
 	    				pleinement de votre vie étudiante et faire un carton plein aux devoirs. <br /><br />Naga Régale. <br /><br />Ludivine</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/1-6rFmBaUlKVMvaJBF1d4uT3szFX9n6km?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
@@ -49,9 +49,9 @@ export default class Pougnes extends React.Component {
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes TSP</h5>
-	    				<p className="card-text">Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. 
-	    				Chez nous les pougnes on te propose une petite aide, un petit plus, qui t'aidera à passer ton année. Tu n'as plus 
-	    				à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue le club B. Ne soit plus 
+	    				<p className="card-text">Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser.
+	    				Chez nous les pougnes on te propose une petite aide, un petit plus, qui t'aidera à passer ton année. Tu n'as plus
+	    				à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue le club B. Ne soit plus
 	    				désolé pour hier soir, on sera là pour t'épauler lors des révisions. Pougner c'est gagner !</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
@@ -82,12 +82,12 @@ export default class Pougnes extends React.Component {
           </a>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes Bachelor</h5>
-	    				<p className="card-text">Sachant que c'est la première fois que ce pôle existe, 
-	    				j'espère le rendre différent cette année pour tous les étudiants en Bachelor de IMT-BS. 
-	    				Je ferai de mon mieux pour que vous puissiez vivre pleinement votre vie sociale tout en réussissant 
-	    				tous vos examens. Je suis à l'écoute de toutes vos questions et je suis également ouverte à toutes 
-	    				les critiques constructives pour m'améliorer et perfectionner mon travail. <br /><br />PS. Croyez-moi, j'aimerais 
-	    				vraiment que la vie d'un étudiant en bachelor ne soit qu'un livre de coloriage mais à ma surprise, ce 
+	    				<p className="card-text">Sachant que c'est la première fois que ce pôle existe,
+	    				j'espère le rendre différent cette année pour tous les étudiants en Bachelor de IMT-BS.
+	    				Je ferai de mon mieux pour que vous puissiez vivre pleinement votre vie sociale tout en réussissant
+	    				tous vos examens. Je suis à l'écoute de toutes vos questions et je suis également ouverte à toutes
+	    				les critiques constructives pour m'améliorer et perfectionner mon travail. <br /><br />PS. Croyez-moi, j'aimerais
+	    				vraiment que la vie d'un étudiant en bachelor ne soit qu'un livre de coloriage mais à ma surprise, ce
 	    				n'est malheureusement pas le cas. <br /><br />Alors bonne révision et bon courage !<br /><br />
 	    				Bises reptiliennes</p>
 	    				<div class="d-grid col-6 mx-auto">
