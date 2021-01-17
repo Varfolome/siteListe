@@ -19,6 +19,10 @@
   margin: 0 auto;
 }
 
+h1.purpose-name {
+  color: black;
+}
+
 .purpose-text-wrapper {
   display: flex;
   flex-flow: column;

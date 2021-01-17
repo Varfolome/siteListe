@@ -13,8 +13,8 @@ export default class MenuContainer extends React.Component {
     let idNext = "";
     idPrev += this.state.currentRenderingContentIndex;
     idNext += newSectionNumber;
-    document.getElementById(idPrev).style="background: gray";
-    document.getElementById(idNext).style="background: black";
+    document.getElementById(idPrev).style="background: white; color: black";
+    document.getElementById(idNext).style="background: black; color: white";
     this.setState(state =>({
       currentRenderingContentIndex: newSectionNumber
     }));
@@ -22,7 +22,7 @@ export default class MenuContainer extends React.Component {
 
   menuControlItems = this.props.control.split(" ");
   i = this.props.start;
-  menuControlItemsJSX = this.menuControlItems.map((controlItem) => <div key={controlItem} className="menu-container-control-element-wrapper rounded"><li id={this.i} className="menu-container-control-element" style={this.i === this.props.start ? {background: "black"} : {background: "gray"}} onClick={this.showNewSection.bind(this,this.i++)}>{controlItem}</li></div>);
+  menuControlItemsJSX = this.menuControlItems.map((controlItem) => <div key={controlItem} className="menu-container-control-element-wrapper rounded"><li id={this.i} className="menu-container-control-element" style={this.i === this.props.start ? {background: "black", color: "white"} : {background: "white", color: "black"}} onClick={this.showNewSection.bind(this,this.i++)}>{controlItem}</li></div>);
 
 
   render() {
