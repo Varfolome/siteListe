@@ -44,9 +44,11 @@ export default class Pougnes extends React.Component {
 	  			</div>
 			</div>
 			<div className="card">
+			<div className="fluid">
           <a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing">
-	  			<img src={tsp} className="card-img-top-pougnes" alt="Gaëtan pougne TSP" />
+	  			<img src={tsp} className="card-img-top-pougnes img-fluid" alt="Gaëtan pougne TSP" />
           </a>
+          </div>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes TSP</h5>
 	    				<p className="card-text">Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. 
