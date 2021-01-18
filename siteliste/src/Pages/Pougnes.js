@@ -94,7 +94,7 @@ export default class Pougnes extends React.Component {
 	    				vraiment que la vie d'un étudiant en bachelor ne soit qu'un livre de coloriage mais à ma surprise, ce
 	    				n'est malheureusement pas le cas. <br /><br />Alors bonne révision et bon courage !<br />
 	    				Bises reptiliennes<br /><br />Sarah</p>
-	    				<div class="d-grid col-6 mx-auto">
+	    				<div className="d-grid col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
 						</div>
 	  			</div>
