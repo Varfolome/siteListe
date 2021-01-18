@@ -108,9 +108,9 @@ export default class MenuList extends React.Component {
 
     // end-of-bloock________________________________________
 
-    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Word of group";
-    let pougnes = this.props.lang === "french" ? "Pougnes" : "I dont know";
-    let partenaires = this.props.lang === "french" ? "Partenaires" : "Friends";
+    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Words of group";
+    let pougnes = this.props.lang === "french" ? "Pougnes" : "Pougnes";
+    let partenaires = this.props.lang === "french" ? "Partenaires" : "Partners";
 
 
 

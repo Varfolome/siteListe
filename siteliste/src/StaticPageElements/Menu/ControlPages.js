@@ -16,10 +16,10 @@ import './ControlPages.css';
 
 export default function ControlPages(props) {
 
-    let page = <Naga />;
+    let page = <Naga lang={props.lang}/>;
     switch(props.pageToShow) {
       case "Naga":
-        page = <Naga />;
+        page = <Naga lang={props.lang}/>;
         break;
       case "Organigramme":
         page = <Organigramme />;
@@ -37,7 +37,7 @@ export default function ControlPages(props) {
         page = <Programme lang={props.lang}/>;
         break;
       default:
-        page = <Naga />;
+        page = <Naga lang={props.lang}/>;
 
 
 

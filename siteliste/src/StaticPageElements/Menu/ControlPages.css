@@ -1,7 +1,7 @@
 .control-page-footer {
   width: 100%;
   box-sizing: border-box;
-  /* background-color: rgb(44, 55, 121);  */
-  background: linear-gradient(90deg, rgba(20,20,20,0.85) 0%, rgba(63,121,41,0.85) 50%, rgba(20,20,20,0.85) 100%);
+  background-color: rgb(241, 243, 247); 
+  /* background: linear-gradient(90deg, rgba(20,20,20,0.85) 0%, rgba(63,121,41,0.85) 50%, rgba(20,20,20,0.85) 100%); */
   background-size: auto;
 }
