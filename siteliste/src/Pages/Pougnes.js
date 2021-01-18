@@ -51,10 +51,12 @@ export default class Pougnes extends React.Component {
           </div>
 	  			<div className="card-body">
 	    			<h5 className="card-title">Pougnes TSP</h5>
-	    				<p className="card-text">Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser.
-	    				Chez nous les pougnes on te propose une petite aide, un petit plus, qui t'aidera à passer ton année. Tu n'as plus
-	    				à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B et bienvenue le club B. Ne soit plus
-	    				désolé pour hier soir, on sera là pour t'épauler lors des révisions. Pougner c'est gagner !</p>
+	    				<p className="card-text">Je suis là pour t’accompagner pendant ta scolarité,
+						 et te faire éviter la 1B. J’apporte dans ta vie un brin de soleil du sud (même des fruits confits
+						  si tu veux), d’ailleurs je t’attends au beach-volley des catalans. Dai ! <br /><br />
+						  Marre de l’AT89C51, Lebesgue ou Kolmogorov ? N’hésite surtout pas à m’envoyer
+						   des messages, je prendrai un grand plaisir à te répondre et fera en sorte que ta question soit
+						    vite répondue. Envoies moi aussi tes retours sur le drive, surtout ce qui est à améliorer.<br /><br />Gaétan</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
   							<div className="btn-group dropup">
@@ -90,8 +92,8 @@ export default class Pougnes extends React.Component {
 	    				tous vos examens. Je suis à l'écoute de toutes vos questions et je suis également ouverte à toutes
 	    				les critiques constructives pour m'améliorer et perfectionner mon travail. <br /><br />PS. Croyez-moi, j'aimerais
 	    				vraiment que la vie d'un étudiant en bachelor ne soit qu'un livre de coloriage mais à ma surprise, ce
-	    				n'est malheureusement pas le cas. <br /><br />Alors bonne révision et bon courage !<br /><br />
-	    				Bises reptiliennes</p>
+	    				n'est malheureusement pas le cas. <br /><br />Alors bonne révision et bon courage !<br />
+	    				Bises reptiliennes<br /><br />Sarah</p>
 	    				<div class="d-grid col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
 						</div>

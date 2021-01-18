@@ -11,13 +11,13 @@
 .titre {
 	text-align: center;
 	padding-top:2%;
-    color: white;
+    color: black;
 }
 
 
 .card-img-top-pougnes {
 	border-radius: 10px;
-	max-width: 80%;
+	max-width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -31,6 +31,7 @@ h5 {
 
 p {
 	font-family: Cabin-Regular;
+	text-align: justify;
 }
 
 .card {

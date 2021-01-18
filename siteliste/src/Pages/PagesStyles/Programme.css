@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+h1.purpose-name{
+  color:black;
+  font-size: 1.2em;
+}
 .general-purposes {
   justify-content: center;
   text-align: center;

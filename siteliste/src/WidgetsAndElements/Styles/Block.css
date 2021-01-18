@@ -6,7 +6,7 @@
 .block_pres {
     margin:2% 14%;
     border-radius: 10px;
-    background-color: rgb(15, 49, 38);
+    background-color: rgb(220, 232, 241);
     display: flex;
     box-shadow: 5px 5px 4px black;
     border: 2px solid black;
@@ -15,18 +15,16 @@
 .title_text_pres {
     display: flex;
     flex-direction:column;
-    background: -webkit-linear-gradient(white, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: white; */
     width: 70%;
 }
 .title_pres{
     margin:2%;
     font-size: 2em;
-    color: rgb(137,118,75);
-    background: -webkit-linear-gradient(#89764B, #beb59c);
+    color: black;
+    /* background: -webkit-linear-gradient(#89764B, #beb59c);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     font-weight: bold;
     font-family: akbaal;
     text-align: center;
@@ -37,9 +35,9 @@
     margin:2%;
     margin-left: 5%;
     padding: 0.5%;
-    background: -webkit-linear-gradient(#89764B, #beb59c);
+    /* background: -webkit-linear-gradient(#89764B, #beb59c);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     text-align: justify;
     font-weight: lighter;
     border-radius: 10px;
