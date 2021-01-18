@@ -71,7 +71,7 @@ export default function FirstBlock(props) {
       {/* <h2 className="swipe-attention"> Swipez ;)</h2> */}
       <Swiper
         spaceBetween={30}
-        slidesPerView={1.11}
+        slidesPerView={1.3}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >

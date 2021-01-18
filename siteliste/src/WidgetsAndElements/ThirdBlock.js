@@ -79,7 +79,7 @@ export default function ThirdBlock(props) {
   if(window.innerWidth <= 790) {
       thirdBlock = <div className="mobile-swiper"><Swiper
       spaceBetween={30}
-      slidesPerView={1.11}
+      slidesPerView={1.3}
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
   >

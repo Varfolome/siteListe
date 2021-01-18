@@ -1,5 +1,6 @@
 import React from 'react';
 import Purpose from '../WidgetsAndElements/Purpose';
+import PurposeWithoutImage from '../WidgetsAndElements/PurposeWithoutImage';
 import MenuContainer from '../WidgetsAndElements/MenuContainer';
 import './PagesStyles/Programme.css';
 
@@ -30,7 +31,7 @@ export default class Programme extends React.Component {
     let texttitlePartner = "Partenariats inter-associations";
     let textPartner = "Encourager les associations à travailler ensemble pour mettre en place des évènements plus riches et que les élèves puissent s’entre-aider et mieux apprendre à se connaître.";
 
-    let textSoiree = "L'objectif est de rendre l'expérience des soirées à l'INT inoubliable en visant toujours plus haut, toujours plus gros. En plus des traditionnels Club B et soirées organisées par le BDE chaque année on organiserait une sortie sur Paris pour la Technoparade et une sorte de Dîner Presque Parfait de la soirée en partenariat avec les autres écoles de l'Institut Polytechnique de Paris où il serait promis au vainqueur gloire et prestige éternels.";
+    let textSoiree = "L'objectif est de rendre l'expérience des soirées à l'INT inoubliable en visant toujours plus haut, toujours plus gros. En plus des traditionnels Club B et soirées organisées par le BDE chaque année, on organiserait une sortie sur Paris pour la Technoparade et une sorte de Dîner Presque Parfait de la soirée en partenariat avec les autres écoles de l'Institut Polytechnique de Paris où il serait promis au vainqueur gloire et prestige éternels.";
     let textSecu = "Faire en sorte que les étudiants puissent profiter au maximum des événements organisés en toute sécurité avec une organisation optimale et un staffing sérieux.";
     let textCom = "Tenir au courant l'INT des divers événements et fêtes organisés sur le campus pour leur donner envie de participer. C’est ainsi que le campus continuera à vivre, surtout en cette période difficile. Ne pas laisser de coté les élèves internationaux. Reprendre le menu de la semaine sur campus TMSP";
     let textPrev = "La prévention de cette année a pour but, si la situation sanitaire le permet, d'enseigner une nouvelle façon de s'amuser en soirée tout en respectant sa santé et ses envies. La prévention sera également consciente des potentiels excès et débordements qui peuvent survenir, et fera tout son possible pour en minimiser les effets indésirables.";
@@ -110,9 +111,9 @@ export default class Programme extends React.Component {
       ["DD", textDD]
     ];
 
-    let generalPurposesJSX = generalPurposes.map((generalPurposeProps) => <li className="general-purposes-list-element" key={generalPurposeProps[1]}><Purpose purposeImg={generalPurposeProps[0]} purposeName={generalPurposeProps[1]} purposeDescription={generalPurposeProps[2]} /><br /><hr /><br /><br /><br /></li>);
-    let specificPurposesJSX1 = specificPurposes1.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><Purpose purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
-    let specificPurposesJSX2 = specificPurposes2.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><Purpose purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
+    let generalPurposesJSX = generalPurposes.map((generalPurposeProps) => <li className="general-purposes-list-element" key={generalPurposeProps[1]}><Purpose purposeImg={generalPurposeProps[0]} purposeName={generalPurposeProps[1]} purposeDescription={generalPurposeProps[2]} /><br /><hr />{/*<br /><br />*/}<br /></li>);
+    let specificPurposesJSX1 = specificPurposes1.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><PurposeWithoutImage purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
+    let specificPurposesJSX2 = specificPurposes2.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><PurposeWithoutImage purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
 
     return (
       <div className="programme">
@@ -120,10 +121,11 @@ export default class Programme extends React.Component {
         <br />
         <div className="general-purposes">
           <ul className="general-purposes-list">
+            
+        <hr />
             {generalPurposesJSX}
           </ul>
         </div>
-        <br />
         <br />
         <h1>{specificPurposes}</h1>
         <br />

@@ -10,17 +10,19 @@
 
 .titre {
 	text-align: center;
-	padding-top:2%;
+	padding: 40px;
     color: black;
 }
 
 
 .card-img-top-pougnes {
 	border-radius: 10px;
+	margin-top: 20px;
 	max-width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 h5 {
@@ -39,7 +41,7 @@ p {
 	box-sizing: border-box;
 	border-radius: 10px;
 	width: 33%;
-	box-shadow: 5px 5px 4px black;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	position: static;
 }
 
@@ -62,7 +64,7 @@ p {
 	box-sizing: border-box;
 	border-radius: 10px;
 	width: 95%;
-	box-shadow: 5px 5px 4px black;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
   .card-img-top-pougnes {

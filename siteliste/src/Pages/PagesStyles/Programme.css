@@ -1,16 +1,23 @@
 .general-purposes-list {
   list-style: none;
   justify-content: center;
+  padding: 0;
+}
+
+h1 {
+  padding-top: 50px;
 }
 
 h1.purpose-name{
   color:black;
   font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .general-purposes {
   justify-content: center;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 20px;
   box-sizing: border-box;
 }
 
