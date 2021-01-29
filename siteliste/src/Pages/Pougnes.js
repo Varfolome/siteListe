@@ -92,7 +92,7 @@ export default class Pougnes extends React.Component {
 	    				tous vos examens. Je suis à l'écoute de toutes vos questions et je suis également ouverte à toutes
 	    				les critiques constructives pour m'améliorer et perfectionner mon travail. <br /><br />PS. Croyez-moi, j'aimerais
 	    				vraiment que la vie d'un étudiant en bachelor ne soit qu'un livre de coloriage mais à ma surprise, ce
-	    				n'est malheureusement pas le cas. <br /><br />Alors bonne révision et bon courage !<br />
+	    				n'est malheureusement pas le cas. <br /><br />Alors <a href="https://naga2021.fr/rush" target="blank">bonnes révisions</a> et bon courage !<br />
 	    				Bises reptiliennes<br /><br />Sarah</p>
 	    				<div class="d-grid col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
