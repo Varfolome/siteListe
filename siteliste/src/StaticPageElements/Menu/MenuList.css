@@ -111,6 +111,12 @@
 
 @media (max-width: 770px) {
 
+  .menu-scroll-control {
+    overflow: visible;
+    z-index: 10;
+  }
+
+
   .naga-menu {
     padding-right: 0px;
     width: 15px;
@@ -136,11 +142,10 @@
      position: fixed;
      top: 0;
      padding-left: 0;
-     z-index: 4;
+     z-index: 12;
    }
 
    .burger {
-     z-index: 10;
      position: fixed;
      margin-left: 92%;
    }
@@ -168,9 +173,6 @@
  }
 
  @media (max-width: 500px) {
-   .menu {
-     margin-top: 60px;
-   }
    .burger {
      width: 16%;
      margin-left: 82%;
