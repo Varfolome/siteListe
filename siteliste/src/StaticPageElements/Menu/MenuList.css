@@ -1,5 +1,4 @@
 :root {
-  --snake-scroll-width : 0%;
   --mobile-height : 100%;
 }
 
@@ -26,8 +25,6 @@
 
 .menu-control {
   background: rgba(17,18,19,1);
-  border-top-right-radius: 10%;
-  border-top-left-radius: 10%;
   background-size: cover;
   width: 100%;
   height: 65px;
@@ -55,12 +52,6 @@
   box-shadow: 0px 0px 50px black;
 }
 
-.snake-scroller {
-  width: var(--snake-scroll-width);
-  height: 5px;
-  background: green;
-  border-radius: 20px;
-}
 
 
 .menu-element {
@@ -118,6 +109,12 @@
 
 @media (max-width: 770px) {
 
+  .menu-scroll-control {
+    overflow: visible;
+    z-index: 10;
+  }
+
+
   .naga-menu {
     padding-right: 0px;
     width: 15px;
@@ -143,13 +140,13 @@
      position: fixed;
      top: 0;
      padding-left: 0;
-     z-index: 4;
+     z-index: 12;
    }
 
    .burger {
-     z-index: 10;
      position: fixed;
      margin-left: 92%;
+     z-index: 6;
    }
 
    .menu-list {
@@ -169,15 +166,16 @@
    }
    .menu-element {
      color: #fff;
-     font-size: 14px;
-     padding: 8px 10px
+     font-size: 18px;
+     padding: 8px 10px;
+   }
+
+   .menu-element:hover {
+     color: green;
    }
  }
 
  @media (max-width: 500px) {
-   .menu {
-     margin-top: 60px;
-   }
    .burger {
      width: 16%;
      margin-left: 82%;

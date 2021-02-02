@@ -3,6 +3,11 @@
 	src: url(../PagesFonts/cabin/Cabin-Regular.ttf) format('truetype');
 }
 
+@font-face{
+    font-family:akbaal;
+    src: url(../../fonts/akbaal.ttf);
+}
+
 @font-face {
 	font-family: 'Myriad-Pro';
 	src: url(../PagesFonts/Myriad-Pro_31655.ttf) format('truetype');
@@ -10,16 +15,21 @@
 
 h1 {
 	text-align: center;
-	font-family: Myriad-Pro;
-	color: white;
+	font-family: akbaal;
+	color: black;
 	font-weight: bold;
-	padding-top: 2%;
+}
+
+.container {
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 h2 {
 	text-align: center;
-	font-family: Myriad-Pro;
-	color: white;
+	font-family: akbaal;
+	color: black;
+	font-weight: bold;
 }
 
 p {

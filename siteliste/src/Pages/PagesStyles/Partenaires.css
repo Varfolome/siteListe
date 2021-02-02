@@ -1,7 +1,6 @@
 .partenaires-wrapper {
 	width: 100%;
 	box-sizing: border-box;
-	padding-top: 60px;
 }
 
 .partenaires {
@@ -18,4 +17,14 @@
   	display: flex;
   	flex-direction: column;
   }
+}
+
+.part-desc-foot {
+	width: 100%;
+	text-align: center;
+
+}
+
+.desc-foot {
+	text-align: center;
 }

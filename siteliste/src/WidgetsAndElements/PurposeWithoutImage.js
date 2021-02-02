@@ -1,6 +1,6 @@
 import './Styles/Purpose.css';
 
-export default function Purpose(props) {
+export default function PurposeWithoutImage(props) {
 
 
     return(
@@ -8,10 +8,7 @@ export default function Purpose(props) {
       <div className="purpose-wrapper">
         <div className="purpose-text-wrapper">
           <h1 className="purpose-name">{props.purposeName}</h1>
-          <img src={props.purposeImg} className="purpose-img" />
           <p className="purpose-description">{props.purposeDescription}</p>
-        </div>
-        <div>
         </div>
       </div>
       </div>

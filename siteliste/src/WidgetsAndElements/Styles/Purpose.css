@@ -1,6 +1,8 @@
 .purpose-img {
-  width : 20%;
-  height: 20%;
+  width: 220px;
+  height:auto;
+  margin: auto;
+  padding-bottom: 25px;
 }
 
 .center-sup-wrapper {
@@ -10,7 +12,7 @@
 
 .purpose-wrapper {
   display: flex;
-  width: 80%;
+  max-width: 800px;
   justify-content: center;
   text-align: center;
   flex-flow: row;
@@ -19,11 +21,19 @@
   margin: 0 auto;
 }
 
+h1.purpose-name {
+  color: black;
+}
+
 .purpose-text-wrapper {
-  display: flex;
-  flex-flow: column;
   text-align: center;
   box-sizing: border-box;
-  padding-left: 40px;
-  width: 80%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media(max-width: 500px) {
+  .purpose-wrapper {
+    flex-flow: column;
+  }
 }

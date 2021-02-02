@@ -40,11 +40,8 @@ export default class MenuList extends React.Component {
 
   handleScroll = () => {
     let scrolled = document.documentElement.scrollTop;
-    let scrollH = document.documentElement.scrollHeight - window.innerHeight;
     const menuScrollControl = document.querySelector('.menu-scroll-control');
     let headerHeight = document.querySelector('.header').clientHeight;
-    let w = (scrolled / scrollH) * 100 + "%";
-    document.documentElement.style.setProperty("--snake-scroll-width", w);
 
     if (this.state.pageToShow !== "Poles" || window.innerWidth > 790) {
       if(scrolled >= headerHeight) {
@@ -111,9 +108,9 @@ export default class MenuList extends React.Component {
 
     // end-of-bloock________________________________________
 
-    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Word of group";
-    let pougnes = this.props.lang === "french" ? "Pougnes" : "I dont know";
-    let partenaires = this.props.lang === "french" ? "Partenaires" : "Friends";
+    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Words of group";
+    let pougnes = this.props.lang === "french" ? "Pougnes" : "Pougnes";
+    let partenaires = this.props.lang === "french" ? "Partenaires" : "Partners";
 
 
 
@@ -132,7 +129,7 @@ export default class MenuList extends React.Component {
         </ul>
         </div>
         </div>
-        <ControlPages pageToShow={this.state.pageToShow} />
+        <ControlPages pageToShow={this.state.pageToShow} lang={this.props.lang}/>
       </div>
     );
     }
