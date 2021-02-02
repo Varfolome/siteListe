@@ -32,9 +32,12 @@ export default class Partenaires extends React.Component {
   		</div>
 		</div>
       </div>
-      <p>Intéressés par un partenariat avec nous ? <br />
+      <div className="part-desc-foot">
+      <br/>
+      <p className="desc-foot">Intéressés par un partenariat avec nous ? </p>
       <a className="plaquetteRE" href={plaquette} target="blank">Visionnez ici nos slides de présentation</a><br />
-      Et contactez nous à l'adresse mail suivante : naga-tmsp@gmail.com</p>
+      <p className="desc-foot">Et contactez nous à l'adresse mail suivante : naga-tmsp@gmail.com</p>
+      </div>
       </div>
     );
   }
