@@ -5,11 +5,16 @@
 
 .partenaires {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
 .plaquetteRE {
 	text-align: center;
+}
+
+.card {
+	background-color: rgb(189, 216, 177);
 }
 
 @media (max-width: 770px) {
