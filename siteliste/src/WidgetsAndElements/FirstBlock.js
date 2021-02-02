@@ -70,8 +70,8 @@ export default function FirstBlock(props) {
     firstBlock = <div className="mobile-swiper">
       {/* <h2 className="swipe-attention"> Swipez ;)</h2> */}
       <Swiper
-        spaceBetween={30}
-        slidesPerView={1.3}
+        spaceBetween={15}
+        slidesPerView={1.2}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
@@ -80,10 +80,10 @@ export default function FirstBlock(props) {
         <SwiperSlide>{blockVP2}</SwiperSlide>
         <SwiperSlide>{blockVP3}</SwiperSlide>
       </Swiper>
-    </div>
+    </div>;
   }
 
-  
+
 
   return (
     <div>
