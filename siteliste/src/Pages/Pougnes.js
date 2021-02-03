@@ -55,8 +55,7 @@ export default class Pougnes extends React.Component {
 						 et te faire éviter la 1B. J’apporte dans ta vie un brin de soleil du sud (même des fruits confits
 						  si tu veux), d’ailleurs je t’attends au beach-volley des catalans. Dai ! <br /><br />
 						  Marre de l’AT89C51, Lebesgue ou Kolmogorov ? N’hésite surtout pas à m’envoyer
-						   des messages, je prendrai un grand plaisir à te répondre et fera en sorte que ta question soit
-						    vite répondue. Envoies moi aussi tes retours sur le drive, surtout ce qui est à améliorer.<br /><br />Gaétan</p>
+						   des messages, je prendrai un grand plaisir à écouter tes questions et y répondre le plus rapidement possible. Envoie moi aussi tes retours sur le drive, surtout ce qui est à améliorer.<br /><br />Gaétan</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
   							<a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
   							<div className="btn-group dropup">

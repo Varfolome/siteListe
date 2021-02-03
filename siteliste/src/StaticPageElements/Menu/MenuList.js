@@ -108,9 +108,9 @@ export default class MenuList extends React.Component {
 
     // end-of-bloock________________________________________
 
-    let mdp = this.props.lang === "french" ? "Mots des pôles" : "Words of group";
-    let pougnes = this.props.lang === "french" ? "Pougnes" : "Pougnes";
-    let partenaires = this.props.lang === "french" ? "Partenaires" : "Partners";
+    let mdp = this.props.lang === "french" ? "POLES" : "POLES";
+    let pougnes = this.props.lang === "french" ? "POUGNES" : "POUGNES";
+    let partenaires = this.props.lang === "french" ? "PARTENAIRES" : "PARTNERS";
 
 
 
@@ -120,11 +120,11 @@ export default class MenuList extends React.Component {
         <div className="menu-control">
         <div onClick={this.Open} className="burgerWrapper" style={burgerStyle}><img src={this.state.menuControl} className="burger"/></div>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>Naga</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>{pougnes}</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>Programme</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>Organigramme</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>PROGRAMME</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>ORGANIGRAMME</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>{partenaires}</li>
         </ul>
         </div>

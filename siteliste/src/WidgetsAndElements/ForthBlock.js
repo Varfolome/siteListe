@@ -16,7 +16,7 @@ import tema from '../photos/img_mdp/tema.jpg'
 
 export default function ForthBlock(props) {
 
-  let textCom = "Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, la com' utilise toutes ces applications pour créer et publier ses meilleures affiches et vidéos ! Que ça soit fougères ou écailles de serpent, on utilise nos meilleures fonds pour impressionner l’INT ";
+  let textCom = "Photoshop ou After Effect ? Facebook ou Insta ? Pas besoin de choisir, la com' utilise toutes ces applications pour créer et publier ses meilleures affiches et vidéos ! Que ça soit fougères ou écailles de serpent, on utilise nos meilleurs fonds pour impressionner l’INT ";
   let textSWEI = "SEI, WEI pas l'temps d'niaiser... Enfin une fois qu'on aura gagné, en attendant, tu passes des coups de mains aux pôles en nécessité. Une fois la victoire remportée, tout l'INT compte sur toi pour leur offrir les meilleurs moments de leur scolarité !";
   let textTema = "Respo T&MA ? Le pôle le plus important. Dire que c'est un pôle pipo est une insulte. Cuisiner, tenturer et moquetter, tout le monde compte sur toi pour faire une tonne d'activités ! Le seul problème, c'est qu'aucune de ces activités n'a de rapport avec les alumnis, et c'est pour cela qu'on est ici toute la nuit !";
   let textStand = "Qui suis-je ? Tu dois me faire avec passion. Je remplis le ventre de morfales tout en les divertissant de façons toujours plus originales. Si je ne propose pas de prix à gagner, personne ne vient me voir. J'existe avant et pendant la campagne, après je ne suis plus. Je suis, je suis, je suis ? Le stand ! Et voici un bidon de Monaga pour toi !";

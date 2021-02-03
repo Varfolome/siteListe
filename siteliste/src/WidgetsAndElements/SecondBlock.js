@@ -20,11 +20,11 @@ import respovoyage from '../photos/img_mdp/voyagerespo.jpg'
 
 export default function SecondBlock(props) {
 
-  let textSoiree = "Le pôle Soirée c'est monter des dossiers en laissant parler sa créativité pour ambiancer des gens avec 3g dans le sang dans le seul but que le lendemain quand on te croisera en gueule de bois tu nous dise que ''c'était stylé ! ''. Au fait on fait aussi pleurer le trésorier.";
-  let textPougnes = "Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez les pougnes, on te propose une petite aide, un petit plus, qui t'aidera à valider ton année. Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B ! Ne soit plus désolé pour hier soir, on sera là pour t'épauler lors des révisions. Pougner c'est gagner !";
-  let textNum = "On préfère faire de jeux. mais on va quand même faire le site et l'appli, don't worry. Le seul souci c'est que comme on travaille derrière nos ordis, on ne nous voit pas bosser alors tout le monde nous demande des trucs !";
+  let textSoiree = "Le pôle Soirée c'est monter des dossiers en laissant parler sa créativité pour ambiancer des gens avec 3g dans le sang dans le seul but que le lendemain quand on te croisera en gueule de bois tu nous dises que ''c'était stylé ! ''. Au fait on fait aussi pleurer le trésorier.";
+  let textPougnes = "Parce qu'on sait que la vie étudiante c'est beaucoup de temps en soirée et peu à réviser. Chez les pougnes, on te propose une petite aide, un petit plus, qui t'aidera à valider ton année. Tu n'as plus à t'inquiéter de tous ces cours ratés sur BBB, avec nous c'est fini les 1B ! Ne sois plus désolé pour hier soir, on sera là pour t'épauler lors des révisions. Pougner c'est gagner !";
+  let textNum = "On préfère faire des jeux. mais on va quand même faire le site et l'appli, don't worry. Le seul souci c'est que comme on travaille derrière nos ordis, on ne nous voit pas bosser alors tout le monde nous demande des trucs !";
   let textSecu = "Nous agissons dans l'ombre afin de protéger le monde, et par le monde, on veut principalement dire le sol et vos petites fesses avec de la moquette de qualité. On fait des créneaux aussi.";
-  let textVoyage = "Aloha, nous c’est le pôle voyage! J’espère pouvoir vous organiser de magnifiques voyages! On fera sûrement des bons pour que vous y ayiez droit dans 10 ans quand le coronavirus ne sera plus qu’un mauvais souvenir. Plus sérieusement, je pense que tout le monde aura besoin d’évasion l’année prochaine et j’espère pouvoir vous faire vivre de belles aventures. Kusjes !";
+  let textVoyage = "Aloha, nous c’est le pôle voyage! J’espère pouvoir vous organiser de magnifiques voyages! On fera sûrement des bons pour que vous y ayez droit dans 10 ans quand le coronavirus ne sera plus qu’un mauvais souvenir. Plus sérieusement, nous pensons que tout le monde aura besoin d’évasion l’année prochaine et nous espérons vous faire vivre de belles aventures. Kusjes !";
 
 
 

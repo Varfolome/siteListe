@@ -19,7 +19,7 @@ export default class Partenaires extends React.Component {
   		<a href="https://www.afriknfusion.fr/"><img className="card-img-top" src={afriknfusion} alt="Afriknfusion" /></a>
   		<div className="card-body">
     		<h5 className="card-title">Afrik'n'fusion</h5>
-    		<p className="card-text">Situé dans la galerie marchande du centre commercial Evry 2, Afrik'n'fusion vous fera découvrir la cuisine africaine et tout sa richesse <br />
+    		<p className="card-text">Situé dans la galerie marchande du centre commercial Evry 2, Afrik'n'fusion vous fera découvrir la cuisine africaine et toute sa richesse <br />
     		<a href="https://www.afriknfusion.fr/">Leur site internet</a></p>
   		</div>
 		</div>

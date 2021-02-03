@@ -17,15 +17,15 @@ export default class Programme extends React.Component {
   }
 
   render() {
-    let globalPurposes = "Nos objectifs généraux:";
-    let specificPurposes="Nos objectifs spécifiques:";
+    let globalPurposes = "Nos objectifs généraux";
+    let specificPurposes="Nos objectifs spécifiques";
 
     let texttitleBoutique = "Boutique de l’école";
     let textBoutique = "Elle proposerait des goodies TSP et IMT-BS comme des pulls, des polos, des t-shirts ou encore des jeux de cartes, eco-cups etc...";
     let texttitleAdm = "Défendre la vie associative auprès de l’administration";
     let textAdm = "Nous sommes fiers de la vie associative présente à l’INT et nous voulons la faire perdurer pour que chaque élève puisse continuer à s’épanouir en faisant ce qu’il aime sur le campus tout en étant en harmonie avec l’administration.";
     let texttitleEvent = "Evènements le week-end";
-    let textEvent = "Notamment pour permettre aux étrangers qui sont présents presque toute l’année sur le campus d’avoir accès à des activités.";
+    let textEvent = "Notamment pour permettre aux étudiants étrangers et à ceux qui viennent de loin, qui sont présents presque toute l’année sur le campus d’avoir accès à des activités.";
     let texttitleTraditions = "Héritage et traditions";
     let textTraditions = "Nous nous engageons à rester en contact permanent avec les vieux pour faire perdurer la culture de l’INT.";
     let texttitlePartner = "Partenariats inter-associations";
@@ -40,8 +40,8 @@ export default class Programme extends React.Component {
     let textRE = "Continuer d’aller dans le sens de partenariats qui profitent à la vie de campus et aux étudiants. Mettre en place un salon de la découverte qui permettrait aux étudiants de découvrir les produits de différentes entreprises : nourriture et boissons, mais aussi jeux vidéos, équipements sportifs";
     let textNum = "Soigner une interface numérique entre la Liste et le reste du monde au travers d'un site Web, rassembler tout le campus à travers des jeux digitaux, et enfin offrir nos compétences aux autres pôles afin qu'ils puissent utiliser les outils numériques à leur guise, et proposer des activités interactives en ligne.";
 
-    let textPougnes = "Nous allons continuer d'entretenir nos drive, faire des fiches et à répondre à vos questions. Nous serons toujours là pour aider durant votre scolarité. Nous aimerions de plus organiser de vrai amphi de révision avec de plus des séances plus particulières pour ceux qui le souhaitent avec leurs CFs.";
-    let textTema = "Montrer aux 1A l'importance de T&MA pour les aider à bâtir un véritable réseau professionnel qui pourront les aider pour leur stages, tout en accompagnant les 2A/3A à décrocher un stage/CDI. Permettre la tenue d'un forum avec les anciens élèves. Poursuivre l'annuaire des anciens élèves grâce à David Chhean (notre interlocuteur auprès de l'asso T&MA !!)";
+    let textPougnes = "Nous allons continuer d'entretenir nos drive, faire des fiches et à répondre à vos questions. Nous serons toujours là pour aider durant votre scolarité. Nous aimerions de plus organiser de vrais amphi de révision avec de plus des séances plus particulières pour ceux qui le souhaitent avec leurs CFs.";
+    let textTema = "Montrer aux 1A l'importance de T&MA pour les aider à bâtir un véritable réseau professionnel qui pourra les aider pour leur stages, tout en accompagnant les 2A/3A à décrocher un stage/CDI. Permettre la tenue d'un forum avec les anciens élèves. Poursuivre l'annuaire des anciens élèves grâce à David Chhean (notre interlocuteur auprès de l'asso T&MA !!)";
     let textStand = "Mise en place de stands de détente, d'activités mais aussi de nourriture pour tous les étudiants de l'INT. Ce seront des espaces où ils pourront effectuer une coupure avec le train train scolaire, discuter et faire des connaissances en toute convivialité.";
     let textSecret = "Optimiser l'organisation des ressources administratives de la liste pour maximiser la productivité. Permettre le bon déroulement des réunions pour faciliter la communication des informations. Offrir à nos sucesseurs une bonne base et de bons conseils pour un secrétariat efficace.";
     let textSWEI = "Organiser une SEI permettant de faire découvrir aux 1A l'ensemble du campus et de ses associations et un WEI reprennant les activités traditionnelles (saut à l'élastique, soirée, GR etc...) tout en ajoutant de nouvelles activités qui n'ont pas pu être réalisées l'année passée et le tout dans un endroit vous permettant de vous évader une ultime fois avant la rentrée scolaire.";
