@@ -1,4 +1,5 @@
 import './Styles/Purpose.css';
+import {Accordion,Button,Card} from 'react-bootstrap';
 
 export default function Purpose(props) {
 

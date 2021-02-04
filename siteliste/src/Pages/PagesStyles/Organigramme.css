@@ -1,0 +1,15 @@
+.imgOrga {
+    margin-top: -60px;
+}
+
+@media(max-width: 700px) {
+  .fixed {
+    background: url(../../WidgetsAndElements/photos/Fond_PP_Fondu.png);
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+  }
+  .imgOrga {
+    margin-top: -5px;
+  }
+}

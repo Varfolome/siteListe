@@ -2,7 +2,6 @@ import './Footer.css'
 import facebook from '../WidgetsAndElements/photos/facebook.png';
 import instagram from '../WidgetsAndElements/photos/instagram.png';
 import mail from '../WidgetsAndElements/photos/mail.png';
-import MailButton from "./MailButton.js"
 
 export default function Footer(props) {
 

@@ -3,6 +3,8 @@ import Purpose from '../WidgetsAndElements/Purpose';
 import PurposeWithoutImage from '../WidgetsAndElements/PurposeWithoutImage';
 import MenuContainer from '../WidgetsAndElements/MenuContainer';
 import './PagesStyles/Programme.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
 
 import boutique from '../WidgetsAndElements/photos/boutique.jpg';
 import adm from '../WidgetsAndElements/photos/adm.jpg';
@@ -111,7 +113,29 @@ export default class Programme extends React.Component {
       ["DD", textDD]
     ];
 
-    let generalPurposesJSX = generalPurposes.map((generalPurposeProps) => <li className="general-purposes-list-element" key={generalPurposeProps[1]}><Purpose purposeImg={generalPurposeProps[0]} purposeName={generalPurposeProps[1]} purposeDescription={generalPurposeProps[2]} /><br /><hr />{/*<br /><br />*/}<br /></li>);
+    let generalPurposesJSX = [];
+    let generalPurposesBlock = <h1>Wow</h1>
+
+    if(window.innerWidth <= 790) {
+        generalPurposesJSX = generalPurposes.map((generalPurposeProps) => <SwiperSlide key={generalPurposeProps[1]}><Purpose purposeImg={generalPurposeProps[0]} purposeName={generalPurposeProps[1]} purposeDescription={generalPurposeProps[2]} /></SwiperSlide>);
+        generalPurposesBlock = <div className="mobile-swiper"><Swiper
+        spaceBetween={20}
+        slidesPerView={1.2}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      {generalPurposesJSX}
+    </Swiper>
+    </div>
+  } else {
+    generalPurposesJSX = generalPurposes.map((generalPurposeProps) => <li className="general-purposes-list-element" key={generalPurposeProps[1]}><Purpose purposeImg={generalPurposeProps[0]} purposeName={generalPurposeProps[1]} purposeDescription={generalPurposeProps[2]} /><br/><hr/><br/></li>);
+    generalPurposesBlock = <ul className="general-purposes-list">
+
+      <hr />
+      {generalPurposesJSX}
+    </ul>;
+  }
+
     let specificPurposesJSX1 = specificPurposes1.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><PurposeWithoutImage purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
     let specificPurposesJSX2 = specificPurposes2.map((specificPurposeProps) => <div className="specific-purposes-element" key={specificPurposeProps[1]}><PurposeWithoutImage purposeName={specificPurposeProps[0]} purposeDescription={specificPurposeProps[1]} /></div>);
 
@@ -120,11 +144,7 @@ export default class Programme extends React.Component {
         <h1>{globalPurposes}</h1>
         <br />
         <div className="general-purposes">
-          <ul className="general-purposes-list">
-            
-        <hr />
-            {generalPurposesJSX}
-          </ul>
+          {generalPurposesBlock}
         </div>
         <br />
         <h1>{specificPurposes}</h1>
