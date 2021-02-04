@@ -25,9 +25,9 @@ export default class Pougnes extends React.Component {
 	    				que j'accepte d'accomplir pour vous, étudiant•e•s de l'IMTBS. <br /><br />Vous pourrez ainsi profiter
 	    				pleinement de votre vie étudiante et faire un carton plein aux devoirs. <br /><br />Naga Régale. <br /><br />Ludivine</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
-  							<a href="https://drive.google.com/drive/folders/1-6rFmBaUlKVMvaJBF1d4uT3szFX9n6km?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
+  							<a href="https://drive.google.com/drive/folders/1-6rFmBaUlKVMvaJBF1d4uT3szFX9n6km?usp=sharing" className="btn btn-light">Lien vers le Drive</a>
   							<div className="btn-group dropup">
-  								<button type="button" className="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  								<button type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 								Anciennes <br /> pougnes
 								</button>
   								<ul className="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
@@ -57,9 +57,9 @@ export default class Pougnes extends React.Component {
 						  Marre de l’AT89C51, Lebesgue ou Kolmogorov ? N’hésite surtout pas à m’envoyer
 						   des messages, je prendrai un grand plaisir à écouter tes questions et y répondre le plus rapidement possible. Envoie moi aussi tes retours sur le drive, surtout ce qui est à améliorer.<br /><br />Gaétan</p>
 	    				<div className="d-grid gap-2 col-6 mx-auto">
-  							<a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
+  							<a href="https://drive.google.com/drive/folders/10fTjUCs1uFWHvkcFq1b2wStLslIecSm4?usp=sharing" className="btn btn-light">Lien vers le Drive</a>
   							<div className="btn-group dropup">
-  								<button type="button" className="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  								<button type="button" className="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 								Anciennes <br /> pougnes
 								</button>
   								<ul className="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
@@ -94,7 +94,7 @@ export default class Pougnes extends React.Component {
 	    				n'est malheureusement pas le cas. <br /><br />Alors <a href="https://naga2021.fr/rush" target="blank">bonnes révisions</a> et bon courage !<br />
 	    				Bises reptiliennes<br /><br />Sarah</p>
 	    				<div className="d-grid col-6 mx-auto">
-  							<a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing" className="btn btn-outline-success">Lien vers le Drive</a>
+  							<a href="https://drive.google.com/drive/folders/1ovl98unRvMVq4jUR2pQnMMcDbRENEXJQ?usp=sharing" className="btn btn-light">Lien vers le Drive</a>
 						</div>
 	  			</div>
 			</div>
