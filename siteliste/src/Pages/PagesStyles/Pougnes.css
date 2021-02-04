@@ -25,6 +25,10 @@
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.btn {
+	border: 2px solid black;
+}
+
 h5 {
 	font-family: Cabin-Regular;
 	font-weight: bold;
