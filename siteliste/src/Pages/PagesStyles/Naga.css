@@ -38,15 +38,15 @@ p {
 	font-size: 18px;
 }
 
-iframe {
+iframe.naga-video {
 	padding:0;
 	border:0;
 	outline:0;
 	font-size:100%;
 	vertical-align:baseline;
 	background:transparent;
-	width: 560px;
-	height: 315px;
+	width: 800px;
+	height: 460px;
 	display: block;
 	margin: 0 auto;
 }
@@ -58,8 +58,10 @@ iframe {
 }
 
 
+
+
 @media (max-width: 770px) {
-	iframe {
+	iframe.naga-video {
 		width: 380px;
 		height: 225px;
 		display: block;
@@ -68,9 +70,16 @@ iframe {
 }
 
 @media(max-width: 400px) {
-	iframe {
+	iframe.naga-video {
 		width: 280px;
 		height: 167px;
+	}
+}
+
+@media(min-width: 1400px) {
+	iframe.naga-video {
+		width: 1024px;
+		height: 620px;
 	}
 }
 

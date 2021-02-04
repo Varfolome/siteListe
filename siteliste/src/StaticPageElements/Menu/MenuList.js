@@ -86,6 +86,7 @@ export default class MenuList extends React.Component {
     let ulStyle = {};
     let burgerStyle = {};
     let open = this.state.isOpen;
+    let page = this.state.pageToShow;
     if (windowWidth <= 790 && !open) {
       ulStyle = {
         transform: 'translateY(-100%)'
@@ -120,12 +121,12 @@ export default class MenuList extends React.Component {
         <div className="menu-control">
         <div onClick={this.Open} className="burgerWrapper" style={burgerStyle}><img src={this.state.menuControl} className="burger"/></div>
         <ul className="menu-list" style={ulStyle}>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")}>NAGA</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Poles")}>{mdp}</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")}>{pougnes}</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Programme")}>PROGRAMME</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")}>ORGANIGRAMME</li>
-          <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")}>{partenaires}</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Naga")} style={page==="Naga" ? {color: "green"} : {color: "white"}}>NAGA</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Poles")} style={page === "Poles" ? {color: "green"} : {color: "white"}}>{mdp}</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Pougnes")} style={page === "Pougnes" ? {color: "green"} : {color: "white"}}>{pougnes}</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Programme")} style={page === "Programme" ? {color: "green"} : {color: "white"}}>PROGRAMME</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")} style={page === "Organigramme" ? {color: "green"} : {color: "white"}}>ORGANIGRAMME</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")} style={page === "Partenaires" ? {color: "green"} : {color: "white"}}>{partenaires}</li>
         </ul>
         </div>
         </div>
