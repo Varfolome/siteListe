@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card" style="width: 450px; padding: 3px;">
+        <h1>Commandez votre <br>petit dej Naga ¡</h1>
+    </div>
+    <form action="submit.php">
+        <div class="card" style="width: 410px;">
+            <div class="container1">
+                <label for="fullname">Nom complet :</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="container1">
+                <label for="email">Email (de l'école si possible) :</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="container1">
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="number" id="phone" name="phone">
+            </div>
+            <div class="container1">
+                <label for="adress">Adresse postale :</label>
+                <input type="text" id="adress" name="adress">
+            </div>
+            <div class="container1">
+                <label for="chamber">Numéro de chambre :</label>
+                <input type="text" id="chamber" name="chamber">
+            </div>
+        </div>
+        <div class="card" style="width: 450px">
+            <label for="creneau">Choisissez votre créneau de livraison :</label>
+            <select id="creneau" name="creneau" required>
+                <option value="" disabled selected hidden>Créneaux disponibles...</option>
+                <option value="8to9">8h à 9h</option>
+                <option value="9to10">9h à 10h</option>
+                <option value="10to11">10h à 11h</option>
+                <option value="11to12">11h à 12h</option>
+                <option value="12to13">12h à 13h</option>
+                <option value="13to14">13h à 14h</option>
+                <option value="14to15">14h à 15h</option>
+                <option value="15to16">15h à 16h</option>
+                <option value="16to17">16h à 17h</option>
+            </select>
+        </div>
+        <div class="card" style="width: 200px">
+            <p style="margin: 5px 5px 10px 5px">Nous adapterons chacun de nos menus selon vous :</p>
+            <input type="checkbox" id="halal" name="halal">
+            <label for="halal">Halal</label>
+            <br>
+            <input type="checkbox" id="vegetarien" name="vegetarien">
+            <label for="vegetarien">Végétarien</label>
+        </div>
+        <div class="card" style="width: 430px">
+            <p style="text-align: center;">Choisissez votre menu :</p>
+            <div class=container>
+                <div style="padding: 10px;">
+                    <input type="radio" id="brunch" name="menu" value="brunch">
+                    <label for="brunch">Brunchaga<br><br>Pain au chocolat, Pancakes, Oeufs brouillés, Bacon</label>
+                </div>
+                <img class="menu-image" src="../photos/Brunch.jpg" alt="">
+            </div>
+            <div class=container>
+                <div style="padding: 10px;">
+                    <input type="radio" id="hamburger" name="menu" value="hamburger">
+                    <label for="hamburger">Ham' Naga<br><br>Hamburger, Frites, Carrot Cake</label>
+                </div>
+                <img class="menu-image" src="../photos/Burgz.jpg" alt="">
+            </div>
+            <div class=container>
+                <div style="padding: 10px;">
+                    <input type="radio" id="croque" name="menu" value="croque">
+                    <label for="croque">Croque Naga<br><br>Croque Monsieur, Salade de Pâtes, Brownies</label>
+                </div>
+                <img class="menu-image" src="../photos/Croque.jpg" alt="">
+            </div>
+        </div>
+        <div class="card" style="width: 400px">
+            <label for="boisson">Choisissez votre boisson :</label>
+            <select id="boisson" name="boisson">
+                <option value="aucune">Sans boisson</option>
+                <option value="pomme">Jus de pomme</option>
+                <option value="orange">Jus d'orange pressé main</option>
+                <option value="cafe">Café</option>
+                <option value="the">Thé</option>
+            </select>
+        </div>
+        <div class="card">
+            <label for="details">D'autres détails que vous souhaiteriez nous transmettre :</label>
+            <br>
+            <br>
+            <textarea style="resize: none" maxlength="500" rows=3 cols=55 id="details" name="details"></textarea>
+        </div>
+        <div class="card">
+            <input type="checkbox" id="check1" name="check1" required>
+            <label for="check1">Je comprends qu'en soumettant cette commande, un email avec un lien de confirmation à cliquer va m'être envoyé.</label>
+            <br>
+            <br>
+            <input type="checkbox" id="check2" name="check2" required>
+            <label for="check2">Je comprends que pour chaque élève, seule la commande la plus récente sera livrée.</label>
+        </div>
+        <div class=card>
+            <div style="text-align: center;">
+                <input class="carddark" style="margin: 10px; border: none; width: 100px; font-family: akbaal;" type="submit">
+            </div>
+            <p style="margin: 10px 0px; text-align: center;">En cas de problème, n'hésitez pas à nous contacter au 0663123409</p>
+        </div>
+    </form>
+</body>

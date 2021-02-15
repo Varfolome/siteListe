@@ -32,6 +32,10 @@ export default class Naga extends React.Component {
     return (
       <div className="Page">
         <div className="container">
+          <br></br>
+          <a className="ptitdejlink" target="blank" href="https://naga2021.fr/ptitdej">Commandez votre petit déjeuner en cliquant ici ¡</a>
+          <br></br>
+          <br></br>
           <h1>{textentree}</h1>
           {/* <p>Bienvenue sur le site de la liste Naga.</p> */}
         </div>
