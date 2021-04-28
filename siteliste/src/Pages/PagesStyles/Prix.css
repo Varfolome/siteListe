@@ -1,0 +1,17 @@
+.prix-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.centered-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pedro {
+  width: 100%;
+  height: 72vh;
+  background-image: url("../../photos/pedros_bg.jpg");
+  background-size: contain;
+}

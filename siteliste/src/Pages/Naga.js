@@ -35,6 +35,10 @@ export default class Naga extends React.Component {
           <h2>{textwhoami}</h2>
           <iframe className="naga-video" src="https://www.youtube.com/embed/9ySNQa4mwOw?autoplay=1" frameBorder="0" allow="autoplay" allowFullScreen></iframe>
         </div>
+        <div className="container">
+          <h2>{textwhoami}</h2>
+          <iframe  className="naga-video" width="560" height="315" src="https://www.youtube.com/embed/b61TrQR0Rkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         {/*<div className="container">
           <h2>{textvisit}</h2>
           {/* <p>Rien de prévu pour le moment... Mais ça ne saurait tarder...</p> */}

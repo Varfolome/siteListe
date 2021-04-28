@@ -127,6 +127,7 @@ export default class MenuList extends React.Component {
           <li className="menu-element" onClick={this.showPage.bind(this,"Programme")} style={page === "Programme" ? {color: "green"} : {color: "white"}}>PROGRAMME</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Organigramme")} style={page === "Organigramme" ? {color: "green"} : {color: "white"}}>ORGANIGRAMME</li>
           <li className="menu-element" onClick={this.showPage.bind(this,"Partenaires")} style={page === "Partenaires" ? {color: "green"} : {color: "white"}}>{partenaires}</li>
+          <li className="menu-element" onClick={this.showPage.bind(this,"Prix")} style={page === "Prix" ? {color: "green"} : {color: "white"}}>PRIX</li>
         </ul>
         </div>
         </div>

@@ -11,6 +11,8 @@ import Partenaires from '../../Pages/Partenaires'; // Partenaires page
 import Poles from '../../Pages/Poles'; //Mots de poles page
 import Pougnes from '../../Pages/Pougnes'; //Pougnes page
 import Programme from '../../Pages/Programme'; //Programme page
+import Prix from '../../Pages/Prix';
+import Chat from '../../Pages/Chat';
 import Footer from '../Footer';
 import './ControlPages.css';
 
@@ -35,6 +37,12 @@ export default function ControlPages(props) {
         break;
       case "Programme":
         page = <Programme lang={props.lang}/>;
+        break;
+      case "Chat":
+        page = <Chat/>
+        break;
+      case "Prix":
+        page = <Prix/>
         break;
       default:
         page = <Naga lang={props.lang}/>;
