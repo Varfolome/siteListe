@@ -1,0 +1,48 @@
+@font-face {
+	font-family: akbaal;
+	src: url(fonts/akbaal.ttf);
+}
+
+.container1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 10px 10px 0px;
+}
+
+.menu-image {
+	max-width: 250px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card {
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 450px;
+	margin: 30px auto;
+	padding: 10px;
+    background-color: rgb(189, 216, 177);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.carddark {
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 450px;
+	margin: 30px auto;
+	padding: 10px;
+    background-color: rgb(138, 189, 116);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+h1 {
+    font-family: akbaal;
+	text-align: center;
+}

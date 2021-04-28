@@ -19,6 +19,10 @@ export default class Naga extends React.Component {
     if (this.props.lang === "english") {
       textwhoami = "Who are we ?";
     }
+    let logo ="Construction du logo par Gaétan";
+    if (this.props.lang === "english") {
+      logo = "Logo's Construction by Gaétan";
+    }
 
     let textvisit ="Poursuivez votre visite en regardant les autres onglets ;)";
     if (this.props.lang === "english") {
@@ -28,6 +32,9 @@ export default class Naga extends React.Component {
     return (
       <div className="Page">
         <div className="container">
+          <br></br>
+          <br></br>
+          <br></br>
           <h1>{textentree}</h1>
           {/* <p>Bienvenue sur le site de la liste Naga.</p> */}
         </div>
@@ -36,7 +43,7 @@ export default class Naga extends React.Component {
           <iframe className="naga-video" src="https://www.youtube.com/embed/9ySNQa4mwOw?autoplay=1" frameBorder="0" allow="autoplay" allowFullScreen></iframe>
         </div>
         <div className="container">
-          <h2>{textwhoami}</h2>
+          <h2>{logo}</h2>
           <iframe  className="naga-video" width="560" height="315" src="https://www.youtube.com/embed/b61TrQR0Rkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         {/*<div className="container">

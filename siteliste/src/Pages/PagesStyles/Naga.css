@@ -13,6 +13,16 @@
 	src: url(../PagesFonts/Myriad-Pro_31655.ttf) format('truetype');
 }
 
+.ptitdejlink:link, .ptitdejlink:visited {
+	background-color: #157e38;
+	font-family: akbaal;
+	color: rgb(255, 255, 255);
+	padding: 25px 25px;
+	font-size: 48px;
+	display: block;
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 	font-family: akbaal;
